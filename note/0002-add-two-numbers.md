@@ -80,7 +80,7 @@ class Solution {
             carry = sum / 10;
             // 创建一个新节点，存储当前位的值
             current.next = new ListNode(sum % 10);
-            // 将指针 current 向前移动一位
+            // 将指针 current 向后移动一位
             current = current.next;
 
             // 如果 l1 不为空，移动 l1 指针到下一个节点
@@ -96,6 +96,9 @@ class Solution {
 
         // 返回结果链表的头部，实际结果在 dummyHead.next 中
         return dummyHead.next;
+        
+        // 时间复杂度：O(max(m, n)), 其中 m 和 n 分别为两个链表的长度。
+        // 空间复杂度：O(1)
     }
 }
 ```
