@@ -16,4 +16,12 @@
 
 ## 滑动窗口
 
-- **3. 无重复字符的最长子串**：[longest-substring-without-repeating-characters](note/0003-longest-substring-without-repeating-characters.md)
+- **3.无重复字符的最长子串**：[longest-substring-without-repeating-characters](note/0003-longest-substring-without-repeating-characters.md)
+
+## 回溯
+
+- **77.组合**：[combinations](/note/0077-combinations.md)
+
+## 二分
+
+- **4.寻找两个正序数组的中位数**：[median-of-two-sorted-arrays](/note/0004-median-of-two-sorted-arrays.md)
