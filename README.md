@@ -27,3 +27,7 @@
 - **4.寻找两个正序数组的中位数**：[median-of-two-sorted-arrays](/note/0004-median-of-two-sorted-arrays.md)
 - [704. 二分查找 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-search/)
 - [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+
+- [35. 搜索插入位置 - 力扣（LeetCode）](https://leetcode.cn/problems/search-insert-position/description/)
+
+- [69. x 的平方根 - 力扣（LeetCode）](https://leetcode.cn/problems/sqrtx/description/)
