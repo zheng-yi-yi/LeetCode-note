@@ -28,7 +28,7 @@
 
 | 题目                                                         | 参考                                                         | 标签                 | 难度 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- | ---- |
-| [704. 二分查找](https://leetcode.cn/problems/binary-search/) | [Code0704_binary_search.java](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0704_binary_search.java) | 数组、二分查找       | 简单 |
+| [704. 二分查找](https://leetcode.cn/problems/binary-search/) | [binary_search](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0704_binary_search.java) | 数组、二分查找       | 简单 |
 | [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) |                                                              | 数组、二分查找       | 中等 |
 | [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/) |                                                              | 数组、二分查找       | 简单 |
 | [69. x 的平方根](https://leetcode.cn/problems/sqrtx/description/) |                                                              | 数学、二分查找       | 简单 |
