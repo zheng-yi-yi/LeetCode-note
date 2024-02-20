@@ -21,21 +21,24 @@
 
 # 笔记
 
+- [ACM模式](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/note/note001_pattern.md)
+- [二分查找算法](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/note/note002_BinarySearch.md)
+
 # 题单
 
 ## 二分查找
 
 
-| 题目                                                         | 参考                                                         | 标签                 | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- | ---- |
-| [704. 二分查找](https://leetcode.cn/problems/binary-search/) | [binary_search](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0704_binary_search.java) | 数组、二分查找       | 简单 |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) |                                                              | 数组、二分查找       | 中等 |
-| [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/) |                                                              | 数组、二分查找       | 简单 |
-| [69. x 的平方根](https://leetcode.cn/problems/sqrtx/description/) |                                                              | 数学、二分查找       | 简单 |
-| [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/description/) |                                                              | 数学、二分查找       | 简单 |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=study-plan-v2&envId=binary-search) |                                                              | 数组、二分查找       | 简单 |
-| [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/) |                                                              | 数组、二分查找、矩阵 | 简单 |
-| [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/description/) |                                                              | 数学、二分查找       | 困难 |
+| 题目                                                                                                                                                            | 参考                                                                                                             | 标签                 | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------- | ---- |
+| [704. 二分查找](https://leetcode.cn/problems/binary-search/)                                                                                                    | [binary_search](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0704_binary_search.java) | 数组、二分查找       | 简单 |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)             |                                                                                                                  | 数组、二分查找       | 中等 |
+| [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/)                                                                            |                                                                                                                  | 数组、二分查找       | 简单 |
+| [69. x 的平方根](https://leetcode.cn/problems/sqrtx/description/)                                                                                               |                                                                                                                  | 数学、二分查找       | 简单 |
+| [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/description/)                                                                         |                                                                                                                  | 数学、二分查找       | 简单 |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=study-plan-v2&envId=binary-search) |                                                                                                                  | 数组、二分查找       | 简单 |
+| [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/)                                               |                                                                                                                  | 数组、二分查找、矩阵 | 简单 |
+| [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/description/)                                                                            |                                                                                                                  | 数学、二分查找       | 困难 |
 
 ## 前缀和
 
