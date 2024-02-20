@@ -1,21 +1,113 @@
 # LeetCode-note
 
-- [LeetCode-note](#leetcode-note)
-  - [二分](#二分)
 
-## 二分
+
+- [LeetCode-note](#leetcode-note)
+  - [二分查找](#二分查找)
+  - [前缀和](#前缀和)
+  - [动态规划](#动态规划)
+    - [一维dp](#一维dp)
+  - [广度优先搜索、深度优先搜索](#广度优先搜索深度优先搜索)
+  - [并查集](#并查集)
+  - [其他](#其他)
+    - [网格图 | 岛屿问题（洪水填充解法）](#网格图--岛屿问题洪水填充解法)
+    - [组合问题](#组合问题)
+
+## 二分查找
 
 - 笔记：[BinarySearch | 二分搜索](./algorithm/learn/A01_BinarySearch.md)
 
-题单如下：
+| 题目                                                                                                                                                            | 标签                 | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---- |
+| [704. 二分查找](https://leetcode.cn/problems/binary-search/)                                                                                                    | 数组、二分查找       | 简单 |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)             | 数组、二分查找       | 中等 |
+| [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/)                                                                            | 数组、二分查找       | 简单 |
+| [69. x 的平方根](https://leetcode.cn/problems/sqrtx/description/)                                                                                               | 数学、二分查找       | 简单 |
+| [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/description/)                                                                         | 数学、二分查找       | 简单 |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=study-plan-v2&envId=binary-search) | 数组、二分查找       | 简单 |
+| [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/)                                               | 数组、二分查找、矩阵 | 简单 |
+| [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/description/)                                                                            | 数学、二分查找       | 困难 |
 
-| 链接                                                         | 标签                 |
-| ------------------------------------------------------------ | -------------------- |
-| [704. 二分查找 - 力扣（LeetCode）](https://leetcode.cn/problems/binary-search/) | 数组、二分查找       |
-| [34. 在排序数组中查找元素的第一个和最后一个位置 - 力扣（LeetCode）](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | 数组、二分查找       |
-| [35. 搜索插入位置 - 力扣（LeetCode）](https://leetcode.cn/problems/search-insert-position/description/) | 数组、二分查找       |
-| [69. x 的平方根 - 力扣（LeetCode）](https://leetcode.cn/problems/sqrtx/description/) | 数学、二分查找       |
-| [367. 有效的完全平方数 - 力扣（LeetCode）](https://leetcode.cn/problems/valid-perfect-square/description/) | 数学、二分查找       |
-| [744. 寻找比目标字母大的最小字母 - 力扣（LeetCode）](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=study-plan-v2&envId=binary-search) | 数组、二分查找       |
-| [1351. 统计有序矩阵中的负数 - 力扣（LeetCode）](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/) | 数组、二分查找、矩阵 |
+## 前缀和
 
+| 题目                                                                                                                                            | 标签                             | 难度 |
+| ----------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | ---- |
+| [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/)                                            | 设计、数组、前缀和               | 简单 |
+| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/)                                                         | 数组、哈希表、前缀和             | 中等 |
+| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/)                                                             | 数组、前缀和、模拟               | 简单 |
+| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/)                                        | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
+| [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)                                                  | 数组、哈希表、前缀和             | 中等 |
+| [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) | 位运算、哈希表、字符串、前缀和   | 中等 |
+
+## 动态规划
+
+### 一维dp
+
+| 题目                                                                                                                          | 标签                                   | 难度 |
+| ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | ---- |
+| [509. 斐波那契数](https://leetcode.cn/problems/fibonacci-number/description/)                                                 | 递归、记忆化搜索、数学、动态规划       | 简单 |
+| [70. 爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/)                                                       | 记忆化搜索、数学、动态规划             | 简单 |
+| [1137. 第 N 个泰波那契数](https://leetcode.cn/problems/n-th-tribonacci-number/description/)                                   | 记忆化搜索、数学、动态规划             | 简单 |
+| [746. 使用最小花费爬楼梯](https://leetcode.cn/problems/min-cost-climbing-stairs/description/)                                 | 数组、动态规划                         | 简单 |
+| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/)                                                | 数组、分治、动态规划                   | 中等 |
+| [2606. 找到最大开销的子字符串](https://leetcode.cn/problems/find-the-substring-with-maximum-cost/description/)                | 数组、哈希表、字符串、动态规划         | 中等 |
+| [413. 等差数列划分](https://leetcode.cn/problems/arithmetic-slices/description/)                                              | 数组、动态规划                         | 中等 |
+| [279. 完全平方数](https://leetcode.cn/problems/perfect-squares/description/)                                                  | 广度优先搜索、数学、动态规划           | 中等 |
+| [300. 最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/)                               | 数组、二分查找、动态规划               | 中等 |
+| [343. 整数拆分](https://leetcode.cn/problems/integer-break/description/)                                                      | 数学、动态规划                         | 中等 |
+| [2369. 检查数组是否存在有效划分](https://leetcode.cn/problems/check-if-there-is-a-valid-partition-for-the-array/description/) | 数组、动态规划                         | 中等 |
+| [983. 最低票价⁤](https://leetcode.cn/problems/minimum-cost-for-tickets/description/)                                          | 数组、动态规划                         | 中等 |
+| [91. 解码方法⁤](https://leetcode.cn/problems/decode-ways/description/)                                                        | 字符串、动态规划                       | 中等 |
+| [264. 丑数 II](https://leetcode.cn/problems/ugly-number-ii/description/)                                                      | 哈希表、数学、动态规划、堆（优先队列） | 中等 |
+| [32. 最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/description/)                                       | 栈、字符串、动态规划                   | 困难 |
+| [467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/)           | 字符串、动态规划                       | 中等 |
+| [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/description/)                                  | 树、二叉搜索树、数学、动态规划、二叉树 | 中等 |
+
+
+
+## 广度优先搜索、深度优先搜索
+
+
+| 题目                                                                                                 | 标签                                   | 难度 |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------- | ---- |
+| [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
+|                                                                                                      |                                        |      |
+|                                                                                                      |                                        |      |
+
+
+
+## 并查集
+
+| 题目                                                                                                 | 标签                                   | 难度 |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------- | ---- |
+| [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
+|                                                                                                      |                                        |      |
+|                                                                                                      |                                        |      |
+
+
+
+## 其他
+
+### 网格图 | 岛屿问题（洪水填充解法）
+
+| 题目                                                                                                     | 标签                                           | 难度 |
+| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------- | ---- |
+| [200. 岛屿数量](https://leetcode.cn/problems/number-of-islands/description/)                             | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+| [463. 岛屿的周长](https://leetcode.cn/problems/island-perimeter/description/)                            | 深度优先搜索、广度优先搜索、数组、矩阵         | 简单 |
+| [695. 岛屿的最大面积](https://leetcode.cn/problems/max-area-of-island/description/)                      | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+| [130. 被围绕的区域](https://leetcode.cn/problems/surrounded-regions/description/)                        | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+| [827. 最大人工岛](https://leetcode.cn/problems/making-a-large-island/description/)                       | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 困难 |
+| [面试题 16.19. 水域大小](https://leetcode.cn/problems/pond-sizes-lcci/description/)                      | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+| [2658. 网格图中鱼的最大数目](https://leetcode.cn/problems/maximum-number-of-fish-in-a-grid/description/) | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+| [1020. 飞地的数量](https://leetcode.cn/problems/number-of-enclaves/description/)                         | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+| [1254. 统计封闭岛屿的数目](https://leetcode.cn/problems/number-of-closed-islands/description/)           | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
+
+
+
+### 组合问题
+
+| 题目                                                                                                       | 标签                 | 难度 |
+| ---------------------------------------------------------------------------------------------------------- | -------------------- | ---- |
+| [77. 组合](https://leetcode.cn/problems/combinations/description/)                                         | 回溯                 | 中等 |
+| [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/description/)                         | 数组、回溯           | 中等 |
+| [17. 电话号码的字母组合⁤](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/) | 哈希表、字符串、回溯 | 中等 |
