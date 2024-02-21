@@ -32,11 +32,11 @@
 
 ## 位运算
 
-| 题目                                                                                      | 参考 | 标签         | 难度 |
-| ----------------------------------------------------------------------------------------- | ---- | ------------ | ---- |
-| [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/description/) |      | 位运算、数学 | 简单 |
-|                                                                                           |      |              |      |
-|                                                                                           |      |              |      |
+| 题目                                                         | 参考                                                         | 标签         | 难度 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ | ---- |
+| [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/description/) | [ArrayXOR](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1426_ArrayXOR.java) | 位运算、数学 | 简单 |
+|                                                              |                                                              |              |      |
+|                                                              |                                                              |              |      |
 
 
 
