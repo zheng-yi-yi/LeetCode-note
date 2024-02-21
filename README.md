@@ -40,6 +40,7 @@
 | [342. 4的幂](https://leetcode.cn/problems/power-of-four/description/) | [PowerOfFour](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0342_PowerOfFour.java) | 位运算、递归、数学 | 简单 |
 | [476. 数字的补数](https://leetcode.cn/problems/number-complement/description/) |                                                              | 位运算             | 简单 |
 | [191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/description/) |                                                              | 位运算、分治       | 简单 |
+| [338. 比特位计数](https://leetcode.cn/problems/counting-bits/description/) |                                                              | 位运算、动态规划   | 简单 |
 
 
 
