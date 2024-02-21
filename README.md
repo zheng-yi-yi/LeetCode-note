@@ -43,10 +43,10 @@
 | [338. 比特位计数](https://leetcode.cn/problems/counting-bits/description/) |                                                              | 位运算、动态规划         | 简单 |
 | [1356. 根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/) |                                                              | 位运算、数组、计数、排序 | 简单 |
 | [461. 汉明距离](https://leetcode.cn/problems/hamming-distance/) |                                                              | 位运算                   | 简单 |
-| [2220. 转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/) |                                                              |                          | 简单 |
-| [868. 二进制间距](https://leetcode.cn/problems/binary-gap/)  |                                                              |                          | 简单 |
-| [2917. 找出数组中的 K-or 值](https://leetcode.cn/problems/find-the-k-or-of-an-array/) |                                                              |                          | 简单 |
-| [693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/) |                                                              |                          | 简单 |
+| [2220. 转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/) |                                                              | 位运算                   | 简单 |
+| [868. 二进制间距](https://leetcode.cn/problems/binary-gap/)  |                                                              | 位运算                   | 简单 |
+| [2917. 找出数组中的 K-or 值](https://leetcode.cn/problems/find-the-k-or-of-an-array/) |                                                              | 位运算、数组             | 简单 |
+| [693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/) |                                                              | 位运算                   | 简单 |
 
 ​	
 
