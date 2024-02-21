@@ -38,6 +38,7 @@
 | [2595. 奇偶位数](https://leetcode.cn/problems/number-of-even-and-odd-bits/description/) | [EvenOddBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2595_EvenOddBits.java) | 位运算             | 简单 |
 | [231. 2 的幂](https://leetcode.cn/problems/power-of-two/description/) | [PowerOfTwo](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0231_PowerOfTwo.java) | 位运算、递归、数学 | 简单 |
 | [342. 4的幂](https://leetcode.cn/problems/power-of-four/description/) | [PowerOfFour](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0342_PowerOfFour.java) | 位运算、递归、数学 | 简单 |
+| [476. 数字的补数](https://leetcode.cn/problems/number-complement/description/) |                                                              | 位运算             | 简单 |
 
 
 
