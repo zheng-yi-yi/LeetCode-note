@@ -9,12 +9,16 @@
 - [目录](#目录)
 - [笔记](#笔记)
 - [题单](#题单)
+  - [位运算](#位运算)
   - [二分查找](#二分查找)
   - [前缀和](#前缀和)
   - [动态规划](#动态规划)
     - [一维dp](#一维dp)
-  - [广度优先搜索、深度优先搜索](#广度优先搜索深度优先搜索)
+    - [二维dp](#二维dp)
+  - [深度优先搜索](#深度优先搜索)
+  - [广度优先搜索](#广度优先搜索)
   - [并查集](#并查集)
+  - [回溯](#回溯)
   - [其他](#其他)
     - [网格图 | 岛屿问题（洪水填充解法）](#网格图--岛屿问题洪水填充解法)
     - [组合问题](#组合问题)
@@ -26,19 +30,29 @@
 
 # 题单
 
+## 位运算
+
+| 题目                                                                                      | 参考 | 标签         | 难度 |
+| ----------------------------------------------------------------------------------------- | ---- | ------------ | ---- |
+| [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/description/) |      | 位运算、数学 | 简单 |
+|                                                                                           |      |              |      |
+|                                                                                           |      |              |      |
+
+
+
 ## 二分查找
 
 
-| 题目                                                         | 参考                                                         | 标签                 | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- | ---- |
-| [704. 二分查找](https://leetcode.cn/problems/binary-search/) | [binary_search](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0704_binary_search.java) | 数组、二分查找       | 简单 |
-| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/) | [searchRange](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0034_searchRange.java) | 数组、二分查找       | 中等 |
-| [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/) |                                                              | 数组、二分查找       | 简单 |
-| [69. x 的平方根](https://leetcode.cn/problems/sqrtx/description/) |                                                              | 数学、二分查找       | 简单 |
-| [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/description/) |                                                              | 数学、二分查找       | 简单 |
-| [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=study-plan-v2&envId=binary-search) |                                                              | 数组、二分查找       | 简单 |
-| [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/) |                                                              | 数组、二分查找、矩阵 | 简单 |
-| [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/description/) |                                                              | 数学、二分查找       | 困难 |
+| 题目                                                                                                                                                            | 参考                                                                                                             | 标签                 | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- | -------------------- | ---- |
+| [704. 二分查找](https://leetcode.cn/problems/binary-search/)                                                                                                    | [binary_search](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0704_binary_search.java) | 数组、二分查找       | 简单 |
+| [34. 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)             | [searchRange](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0034_searchRange.java)     | 数组、二分查找       | 中等 |
+| [35. 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/)                                                                            |                                                                                                                  | 数组、二分查找       | 简单 |
+| [69. x 的平方根](https://leetcode.cn/problems/sqrtx/description/)                                                                                               |                                                                                                                  | 数学、二分查找       | 简单 |
+| [367. 有效的完全平方数](https://leetcode.cn/problems/valid-perfect-square/description/)                                                                         |                                                                                                                  | 数学、二分查找       | 简单 |
+| [744. 寻找比目标字母大的最小字母](https://leetcode.cn/problems/find-smallest-letter-greater-than-target/description/?envType=study-plan-v2&envId=binary-search) |                                                                                                                  | 数组、二分查找       | 简单 |
+| [1351. 统计有序矩阵中的负数](https://leetcode.cn/problems/count-negative-numbers-in-a-sorted-matrix/description/)                                               |                                                                                                                  | 数组、二分查找、矩阵 | 简单 |
+| [878. 第 N 个神奇数字](https://leetcode.cn/problems/nth-magical-number/description/)                                                                            |                                                                                                                  | 数学、二分查找       | 困难 |
 
 ## 前缀和
 
@@ -75,9 +89,17 @@
 | [467. 环绕字符串中唯一的子字符串](https://leetcode.cn/problems/unique-substrings-in-wraparound-string/description/)           | 字符串、动态规划                       | 中等 |
 | [96. 不同的二叉搜索树](https://leetcode.cn/problems/unique-binary-search-trees/description/)                                  | 树、二叉搜索树、数学、动态规划、二叉树 | 中等 |
 
+### 二维dp
+
+| 题目                                                                                         | 标签                 | 难度 |
+| -------------------------------------------------------------------------------------------- | -------------------- | ---- |
+| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/)                 | 数组、动态规划、矩阵 | 中等 |
+| [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/) | 字符串、动态规划     | 中等 |
+|                                                                                              |                      |      |
 
 
-## 广度优先搜索、深度优先搜索
+
+## 深度优先搜索
 
 
 | 题目                                                                                                 | 标签                                   | 难度 |
@@ -85,6 +107,18 @@
 | [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
 |                                                                                                      |                                        |      |
 |                                                                                                      |                                        |      |
+
+
+
+## 广度优先搜索
+
+
+| 题目                                                                                                 | 标签                                   | 难度 |
+| ---------------------------------------------------------------------------------------------------- | -------------------------------------- | ---- |
+| [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
+|                                                                                                      |                                        |      |
+|                                                                                                      |                                        |      |
+
 
 
 
@@ -97,6 +131,14 @@
 |                                                                                                      |                                        |      |
 
 
+
+## 回溯
+
+| 题目                                                                  | 标签             | 难度 |
+| --------------------------------------------------------------------- | ---------------- | ---- |
+| [79. 单词搜索](https://leetcode.cn/problems/word-search/description/) | 数组、回溯、矩阵 | 中等 |
+|                                                                       |                  |      |
+|                                                                       |                  |      |
 
 ## 其他
 
