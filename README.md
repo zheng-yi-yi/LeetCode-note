@@ -55,6 +55,16 @@
 | [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)                                                  | 数组、哈希表、前缀和             | 中等 |
 | [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) | 位运算、哈希表、字符串、前缀和   | 中等 |
 
+## 记忆化搜索
+
+| 题目                                                         | 标签                                                         | 难度 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [329. 矩阵中的最长递增路径](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix/description/) | 深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、数组、动态规划、矩阵 | 难度 |
+|                                                              |                                                              |      |
+|                                                              |                                                              |      |
+
+
+
 ## 动态规划
 
 ### 一维dp
