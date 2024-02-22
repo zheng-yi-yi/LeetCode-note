@@ -153,9 +153,8 @@
 | [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) | [SingleNumberII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0137_SingleNumberII.java) | 位运算、数组             | 中等 |
 | [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) | [SingleNumberIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0260_SingleNumberIII.java) | 位运算、数组             | 中等 |
 | [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) | [ReverseBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0190_ReverseBits.java) | 位运算、分治             | 简单 |
-| [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) |                                                              | 位运算                   | 中等 |
-| [2154. 将找到的值乘以 2](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/) |                                                              |                          |      |
-| [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) |                                                              |                          |      |
+| [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | [RangeBitwiseAnd](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0201_RangeBitwiseAnd.java) | 位运算                   | 中等 |
+| [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) |                                                              | 位运算、数学             | 中等 |
 | [2438. 二的幂数组中查询范围内的乘积](https://leetcode.cn/problems/range-product-queries-of-powers/) |                                                              |                          |      |
 | [2044. 统计按位或能得到最大值的子集数目](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets/) |                                                              |                          |      |
 | [982. 按位与为零的三元组](https://leetcode.cn/problems/triples-with-bitwise-and-equal-to-zero/) |                                                              |                          |      |
