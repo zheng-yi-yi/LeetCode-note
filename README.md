@@ -152,7 +152,7 @@
 | [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) | [SingleNumber](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0136_SingleNumber.java) | 位运算、数组             | 简单 |
 | [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) | [SingleNumberII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0137_SingleNumberII.java) | 位运算、数组             | 中等 |
 | [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) | [SingleNumberIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0260_SingleNumberIII.java) | 位运算、数组             | 中等 |
-| [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) |                                                              |                          |      |
+| [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) | [ReverseBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0190_ReverseBits.java) | 位运算、分治             | 简单 |
 | [645. 错误的集合](https://leetcode.cn/problems/set-mismatch/) |                                                              |                          |      |
 | [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) |                                                              |                          |      |
 | [2154. 将找到的值乘以 2](https://leetcode.cn/problems/keep-multiplying-found-values-by-two/) |                                                              |                          |      |
