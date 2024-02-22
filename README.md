@@ -150,7 +150,7 @@
 | [2917. 找出数组中的 K-or 值](https://leetcode.cn/problems/find-the-k-or-of-an-array/) | [FindKOr](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2917_FindKOr.java) | 位运算、数组             | 简单 |
 | [693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/) | [HasAlternatingBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0693_HasAlternatingBits.java) | 位运算                   | 简单 |
 | [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) | [SingleNumber](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0136_SingleNumber.java) | 位运算、数组             | 简单 |
-| [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) |                                                              |                          |      |
+| [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) | [SingleNumberII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0137_SingleNumberII.java) | 位运算、数组             | 中等 |
 | [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) |                                                              |                          |      |
 | [287. 寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/) |                                                              |                          |      |
 | [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) |                                                              |                          |      |
