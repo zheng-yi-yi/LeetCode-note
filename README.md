@@ -155,7 +155,6 @@
 | [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) | [ReverseBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0190_ReverseBits.java) | 位运算、分治             | 简单 |
 | [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | [RangeBitwiseAnd](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0201_RangeBitwiseAnd.java) | 位运算                   | 中等 |
 | [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) | [GetSum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0371_GetSum.java) | 位运算、数学             | 中等 |
-| [982. 按位与为零的三元组](https://leetcode.cn/problems/triples-with-bitwise-and-equal-to-zero/) |                                                              |                          |      |
 | [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/) |                                                              |                          |      |
 | [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) |                                                              |                          |      |
 | [2354. 优质数对的数目](https://leetcode.cn/problems/number-of-excellent-pairs/) |                                                              |                          |      |
