@@ -81,11 +81,11 @@
 
 ### 二维dp
 
-| 题目                                                                                         | 标签                 | 难度 |
-| -------------------------------------------------------------------------------------------- | -------------------- | ---- |
-| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/)                 | 数组、动态规划、矩阵 | 中等 |
+| 题目                                                         | 标签                 | 难度 |
+| ------------------------------------------------------------ | -------------------- | ---- |
+| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/) | 数组、动态规划、矩阵 | 中等 |
 | [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/) | 字符串、动态规划     | 中等 |
-|                                                                                              |                      |      |
+| [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 字符串、动态规划     | 中等 |
 
 
 
