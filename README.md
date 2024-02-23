@@ -158,9 +158,8 @@
 | [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) | [GetSum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0371_GetSum.java) | 位运算、数学                 | 中等 |
 | [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/) | [ConcatenatedBinary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1680_ConcatenatedBinary.java) | 位运算、数学、模拟           | 中等 |
 | [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) | [MinimumOneBitOperations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1611_MinimumOneBitOperations.java) | 位运算、记忆化搜索、动态规划 | 困难 |
-| [2354. 优质数对的数目](https://leetcode.cn/problems/number-of-excellent-pairs/) |                                                              |                              |      |
-| [1835. 所有数对按位与结果的异或和](https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/) |                                                              |                              |      |
-| [2275. 按位与结果大于零的最长组合](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/) |                                                              |                              |      |
+| [1835. 所有数对按位与结果的异或和](https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/) |                                                              | 位运算、数组、数学           | 困难 |
+| [2275. 按位与结果大于零的最长组合](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/) |                                                              | 位运算、数组、哈希表、计数   | 中等 |
 | [1863. 找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/) |                                                              |                              |      |
 | [477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/) |                                                              |                              |      |
 | [2980. 检查按位或是否存在尾随零](https://leetcode.cn/problems/check-if-bitwise-or-has-trailing-zeros/) |                                                              |                              |      |
