@@ -165,7 +165,7 @@
 | [2980. 检查按位或是否存在尾随零](https://leetcode.cn/problems/check-if-bitwise-or-has-trailing-zeros/) | [HasTrailingZeros](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2980_HasTrailingZeros.java) | 位运算、数组                         | 简单 |
 | [1318. 或运算的最小翻转次数](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c/) | [MinFlips](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1318_MinFlips.java) | 位运算                               | 中等 |
 | [2419. 按位与最大的最长子数组](https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and/) |                                                              | 位运算、脑筋急转弯、数组             | 中等 |
-| [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/) |                                                              |                                      |      |
+| [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/) |                                                              | 贪心、位运算、数组                   | 中等 |
 | [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray/) |                                                              |                                      |      |
 | [2680. 最大或值](https://leetcode.cn/problems/maximum-or/)   |                                                              |                                      |      |
 | [2411. 按位或最大的最小子数组长度](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/) |                                                              |                                      |      |
