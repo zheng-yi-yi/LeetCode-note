@@ -135,64 +135,64 @@
 
 ## 位运算
 
-| 题目                                                         | 参考                                                         | 标签                         | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------------------- | ---- |
-| [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/description/) | [ArrayXOR](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1426_ArrayXOR.java) | 位运算、数学                 | 简单 |
-| [2595. 奇偶位数](https://leetcode.cn/problems/number-of-even-and-odd-bits/description/) | [EvenOddBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2595_EvenOddBits.java) | 位运算                       | 简单 |
-| [231. 2 的幂](https://leetcode.cn/problems/power-of-two/description/) | [PowerOfTwo](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0231_PowerOfTwo.java) | 位运算、递归、数学           | 简单 |
-| [342. 4的幂](https://leetcode.cn/problems/power-of-four/description/) | [PowerOfFour](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0342_PowerOfFour.java) | 位运算、递归、数学           | 简单 |
-| [476. 数字的补数](https://leetcode.cn/problems/number-complement/description/) | [FindComplement](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0476_FindComplement.java) | 位运算                       | 简单 |
-| [191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/description/) | [HammingWeight](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0191_HammingWeight.java) | 位运算、分治                 | 简单 |
-| [338. 比特位计数](https://leetcode.cn/problems/counting-bits/description/) | [CountBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0338_CountBits.java) | 位运算、动态规划             | 简单 |
-| [1356. 根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/) | [SortByBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1356_SortByBits.java) | 位运算、数组、计数、排序     | 简单 |
-| [461. 汉明距离](https://leetcode.cn/problems/hamming-distance/) | [HammingDistance](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0461_HammingDistance.java) | 位运算                       | 简单 |
-| [2220. 转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/) | [MinBitFlips](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2220_MinBitFlips.java) | 位运算                       | 简单 |
-| [868. 二进制间距](https://leetcode.cn/problems/binary-gap/)  | [BinaryGap](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0868_BinaryGap.java) | 位运算                       | 简单 |
-| [2917. 找出数组中的 K-or 值](https://leetcode.cn/problems/find-the-k-or-of-an-array/) | [FindKOr](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2917_FindKOr.java) | 位运算、数组                 | 简单 |
-| [693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/) | [HasAlternatingBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0693_HasAlternatingBits.java) | 位运算                       | 简单 |
-| [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) | [SingleNumber](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0136_SingleNumber.java) | 位运算、数组                 | 简单 |
-| [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) | [SingleNumberII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0137_SingleNumberII.java) | 位运算、数组                 | 中等 |
-| [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) | [SingleNumberIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0260_SingleNumberIII.java) | 位运算、数组                 | 中等 |
-| [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) | [ReverseBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0190_ReverseBits.java) | 位运算、分治                 | 简单 |
-| [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | [RangeBitwiseAnd](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0201_RangeBitwiseAnd.java) | 位运算                       | 中等 |
-| [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) | [GetSum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0371_GetSum.java) | 位运算、数学                 | 中等 |
-| [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/) | [ConcatenatedBinary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1680_ConcatenatedBinary.java) | 位运算、数学、模拟           | 中等 |
-| [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) | [MinimumOneBitOperations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1611_MinimumOneBitOperations.java) | 位运算、记忆化搜索、动态规划 | 困难 |
-| [1835. 所有数对按位与结果的异或和](https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/) | [GetXORSum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1835_GetXORSum.java) | 位运算、数组、数学           | 困难 |
-| [2275. 按位与结果大于零的最长组合](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/) | [LargestCombination](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2275_LargestCombination.java) | 位运算、数组、哈希表、计数   | 中等 |
-| [1863. 找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/) |                                                              |                              |      |
-| [477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/) |                                                              |                              |      |
-| [2980. 检查按位或是否存在尾随零](https://leetcode.cn/problems/check-if-bitwise-or-has-trailing-zeros/) |                                                              |                              |      |
-| [1318. 或运算的最小翻转次数](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c/) |                                                              |                              |      |
-| [2419. 按位与最大的最长子数组](https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and/) |                                                              |                              |      |
-| [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/) |                                                              |                              |      |
-| [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray/) |                                                              |                              |      |
-| [2680. 最大或值](https://leetcode.cn/problems/maximum-or/)   |                                                              |                              |      |
-| [2411. 按位或最大的最小子数组长度](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/) |                                                              |                              |      |
-| [898. 子数组按位或操作](https://leetcode.cn/problems/bitwise-ors-of-subarrays/) |                                                              |                              |      |
-| [1521. 找到最接近目标值的函数值](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/) |                                                              |                              |      |
-| [1720. 解码异或后的数组](https://leetcode.cn/problems/decode-xored-array/) |                                                              |                              |      |
-| [2433. 找出前缀异或的原始数组](https://leetcode.cn/problems/find-the-original-array-of-prefix-xor/) |                                                              |                              |      |
-| [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray/) |                                                              |                              |      |
-| [2683. 相邻值的按位异或](https://leetcode.cn/problems/neighboring-bitwise-xor/) |                                                              |                              |      |
-| [2997. 使数组异或和等于 K 的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) |                                                              |                              |      |
-| [1442. 形成两个异或相等数组的三元组数目](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) |                                                              |                              |      |
-| [2429. 最小异或](https://leetcode.cn/problems/minimize-xor/) |                                                              |                              |      |
-| [2527. 查询数组异或美丽值](https://leetcode.cn/problems/find-xor-beauty-of-array/) |                                                              |                              |      |
-| [2317. 操作后的最大异或和](https://leetcode.cn/problems/maximum-xor-after-operations/) |                                                              |                              |      |
-| [2588. 统计美丽子数组数目](https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays/) |                                                              |                              |      |
-| [2564. 子字符串异或查询](https://leetcode.cn/problems/substring-xor-queries/) |                                                              |                              |      |
-| [1734. 解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/) |                                                              |                              |      |
-| [2857. 统计距离为 k 的点对](https://leetcode.cn/problems/count-pairs-of-points-with-distance-k/) |                                                              |                              |      |
-| [2546. 执行逐位运算使字符串相等](https://leetcode.cn/problems/apply-bitwise-operations-to-make-strings-equal/) |                                                              |                              |      |
-| [1558. 得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/) |                                                              |                              |      |
-| [2571. 将整数减少到零需要的最少操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-an-integer-to-0/) |                                                              |                              |      |
-| [2568. 最小无法得到的或值](https://leetcode.cn/problems/minimum-impossible-or/) |                                                              |                              |      |
-| [2939. 最大异或乘积](https://leetcode.cn/problems/maximum-xor-product/) |                                                              |                              |      |
-| [2749. 得到整数零需要执行的最少操作数](https://leetcode.cn/problems/minimum-operations-to-make-the-integer-zero/) |                                                              |                              |      |
-| [2835. 使子序列的和等于目标的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-form-subsequence-with-target-sum/) |                                                              |                              |      |
-| [2897. 对数组执行操作使平方和最大](https://leetcode.cn/problems/apply-operations-on-array-to-maximize-sum-of-squares/) |                                                              |                              |      |
-| [810. 黑板异或游戏](https://leetcode.cn/problems/chalkboard-xor-game/) |                                                              |                              |      |
+| 题目                                                         | 参考                                                         | 标签                                 | 难度 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------ | ---- |
+| [1486. 数组异或操作](https://leetcode.cn/problems/xor-operation-in-an-array/description/) | [ArrayXOR](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1426_ArrayXOR.java) | 位运算、数学                         | 简单 |
+| [2595. 奇偶位数](https://leetcode.cn/problems/number-of-even-and-odd-bits/description/) | [EvenOddBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2595_EvenOddBits.java) | 位运算                               | 简单 |
+| [231. 2 的幂](https://leetcode.cn/problems/power-of-two/description/) | [PowerOfTwo](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0231_PowerOfTwo.java) | 位运算、递归、数学                   | 简单 |
+| [342. 4的幂](https://leetcode.cn/problems/power-of-four/description/) | [PowerOfFour](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0342_PowerOfFour.java) | 位运算、递归、数学                   | 简单 |
+| [476. 数字的补数](https://leetcode.cn/problems/number-complement/description/) | [FindComplement](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0476_FindComplement.java) | 位运算                               | 简单 |
+| [191. 位1的个数](https://leetcode.cn/problems/number-of-1-bits/description/) | [HammingWeight](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0191_HammingWeight.java) | 位运算、分治                         | 简单 |
+| [338. 比特位计数](https://leetcode.cn/problems/counting-bits/description/) | [CountBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0338_CountBits.java) | 位运算、动态规划                     | 简单 |
+| [1356. 根据数字二进制下 1 的数目排序](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits/) | [SortByBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1356_SortByBits.java) | 位运算、数组、计数、排序             | 简单 |
+| [461. 汉明距离](https://leetcode.cn/problems/hamming-distance/) | [HammingDistance](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0461_HammingDistance.java) | 位运算                               | 简单 |
+| [2220. 转换数字的最少位翻转次数](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number/) | [MinBitFlips](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2220_MinBitFlips.java) | 位运算                               | 简单 |
+| [868. 二进制间距](https://leetcode.cn/problems/binary-gap/)  | [BinaryGap](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0868_BinaryGap.java) | 位运算                               | 简单 |
+| [2917. 找出数组中的 K-or 值](https://leetcode.cn/problems/find-the-k-or-of-an-array/) | [FindKOr](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2917_FindKOr.java) | 位运算、数组                         | 简单 |
+| [693. 交替位二进制数](https://leetcode.cn/problems/binary-number-with-alternating-bits/) | [HasAlternatingBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0693_HasAlternatingBits.java) | 位运算                               | 简单 |
+| [136. 只出现一次的数字](https://leetcode.cn/problems/single-number/) | [SingleNumber](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0136_SingleNumber.java) | 位运算、数组                         | 简单 |
+| [137. 只出现一次的数字 II](https://leetcode.cn/problems/single-number-ii/) | [SingleNumberII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0137_SingleNumberII.java) | 位运算、数组                         | 中等 |
+| [260. 只出现一次的数字 III](https://leetcode.cn/problems/single-number-iii/) | [SingleNumberIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0260_SingleNumberIII.java) | 位运算、数组                         | 中等 |
+| [190. 颠倒二进制位](https://leetcode.cn/problems/reverse-bits/) | [ReverseBits](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0190_ReverseBits.java) | 位运算、分治                         | 简单 |
+| [201. 数字范围按位与](https://leetcode.cn/problems/bitwise-and-of-numbers-range/) | [RangeBitwiseAnd](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0201_RangeBitwiseAnd.java) | 位运算                               | 中等 |
+| [371. 两整数之和](https://leetcode.cn/problems/sum-of-two-integers/) | [GetSum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0371_GetSum.java) | 位运算、数学                         | 中等 |
+| [1680. 连接连续二进制数字](https://leetcode.cn/problems/concatenation-of-consecutive-binary-numbers/) | [ConcatenatedBinary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1680_ConcatenatedBinary.java) | 位运算、数学、模拟                   | 中等 |
+| [1611. 使整数变为 0 的最少操作次数](https://leetcode.cn/problems/minimum-one-bit-operations-to-make-integers-zero/) | [MinimumOneBitOperations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1611_MinimumOneBitOperations.java) | 位运算、记忆化搜索、动态规划         | 困难 |
+| [1835. 所有数对按位与结果的异或和](https://leetcode.cn/problems/find-xor-sum-of-all-pairs-bitwise-and/) | [GetXORSum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1835_GetXORSum.java) | 位运算、数组、数学                   | 困难 |
+| [2275. 按位与结果大于零的最长组合](https://leetcode.cn/problems/largest-combination-with-bitwise-and-greater-than-zero/) | [LargestCombination](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2275_LargestCombination.java) | 位运算、数组、哈希表、计数           | 中等 |
+| [1863. 找出所有子集的异或总和再求和](https://leetcode.cn/problems/sum-of-all-subset-xor-totals/) |                                                              | 位运算、数组、数学、回溯、组合、数学 | 简单 |
+| [477. 汉明距离总和](https://leetcode.cn/problems/total-hamming-distance/) |                                                              | 位运算、数组、数学                   | 中等 |
+| [2980. 检查按位或是否存在尾随零](https://leetcode.cn/problems/check-if-bitwise-or-has-trailing-zeros/) |                                                              |                                      |      |
+| [1318. 或运算的最小翻转次数](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c/) |                                                              |                                      |      |
+| [2419. 按位与最大的最长子数组](https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and/) |                                                              |                                      |      |
+| [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/) |                                                              |                                      |      |
+| [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray/) |                                                              |                                      |      |
+| [2680. 最大或值](https://leetcode.cn/problems/maximum-or/)   |                                                              |                                      |      |
+| [2411. 按位或最大的最小子数组长度](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/) |                                                              |                                      |      |
+| [898. 子数组按位或操作](https://leetcode.cn/problems/bitwise-ors-of-subarrays/) |                                                              |                                      |      |
+| [1521. 找到最接近目标值的函数值](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/) |                                                              |                                      |      |
+| [1720. 解码异或后的数组](https://leetcode.cn/problems/decode-xored-array/) |                                                              |                                      |      |
+| [2433. 找出前缀异或的原始数组](https://leetcode.cn/problems/find-the-original-array-of-prefix-xor/) |                                                              |                                      |      |
+| [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray/) |                                                              |                                      |      |
+| [2683. 相邻值的按位异或](https://leetcode.cn/problems/neighboring-bitwise-xor/) |                                                              |                                      |      |
+| [2997. 使数组异或和等于 K 的最少操作次数](https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-xor-equal-to-k/) |                                                              |                                      |      |
+| [1442. 形成两个异或相等数组的三元组数目](https://leetcode.cn/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) |                                                              |                                      |      |
+| [2429. 最小异或](https://leetcode.cn/problems/minimize-xor/) |                                                              |                                      |      |
+| [2527. 查询数组异或美丽值](https://leetcode.cn/problems/find-xor-beauty-of-array/) |                                                              |                                      |      |
+| [2317. 操作后的最大异或和](https://leetcode.cn/problems/maximum-xor-after-operations/) |                                                              |                                      |      |
+| [2588. 统计美丽子数组数目](https://leetcode.cn/problems/count-the-number-of-beautiful-subarrays/) |                                                              |                                      |      |
+| [2564. 子字符串异或查询](https://leetcode.cn/problems/substring-xor-queries/) |                                                              |                                      |      |
+| [1734. 解码异或后的排列](https://leetcode.cn/problems/decode-xored-permutation/) |                                                              |                                      |      |
+| [2857. 统计距离为 k 的点对](https://leetcode.cn/problems/count-pairs-of-points-with-distance-k/) |                                                              |                                      |      |
+| [2546. 执行逐位运算使字符串相等](https://leetcode.cn/problems/apply-bitwise-operations-to-make-strings-equal/) |                                                              |                                      |      |
+| [1558. 得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-target-array/) |                                                              |                                      |      |
+| [2571. 将整数减少到零需要的最少操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-an-integer-to-0/) |                                                              |                                      |      |
+| [2568. 最小无法得到的或值](https://leetcode.cn/problems/minimum-impossible-or/) |                                                              |                                      |      |
+| [2939. 最大异或乘积](https://leetcode.cn/problems/maximum-xor-product/) |                                                              |                                      |      |
+| [2749. 得到整数零需要执行的最少操作数](https://leetcode.cn/problems/minimum-operations-to-make-the-integer-zero/) |                                                              |                                      |      |
+| [2835. 使子序列的和等于目标的最少操作次数](https://leetcode.cn/problems/minimum-operations-to-form-subsequence-with-target-sum/) |                                                              |                                      |      |
+| [2897. 对数组执行操作使平方和最大](https://leetcode.cn/problems/apply-operations-on-array-to-maximize-sum-of-squares/) |                                                              |                                      |      |
+| [810. 黑板异或游戏](https://leetcode.cn/problems/chalkboard-xor-game/) |                                                              |                                      |      |
 
 
 
