@@ -95,6 +95,7 @@
 | [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/) | 数组、动态规划、矩阵 | 中等 |
 | [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/) | 字符串、动态规划     | 中等 |
 | [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 字符串、动态规划     | 中等 |
+| [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/description/) | 字符串               | 困难 |
 
 
 
@@ -167,7 +168,7 @@
 | [2419. 按位与最大的最长子数组](https://leetcode.cn/problems/longest-subarray-with-maximum-bitwise-and/) | [LongestSubarray](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2419_LongestSubarray.java) | 位运算、脑筋急转弯、数组             | 中等 |
 | [2871. 将数组分割成最多数目的子数组](https://leetcode.cn/problems/split-array-into-maximum-number-of-subarrays/) | [MaxSubarrays](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2871_MaxSubarrays.java) | 贪心、位运算、数组                   | 中等 |
 | [2401. 最长优雅子数组](https://leetcode.cn/problems/longest-nice-subarray/) | [LongestNiceSubarray](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2401_LongestNiceSubarray.java) | 位运算、数组、滑动窗口               | 中等 |
-| [2680. 最大或值](https://leetcode.cn/problems/maximum-or/)   |                                                              |                                      |      |
+| [2680. 最大或值](https://leetcode.cn/problems/maximum-or/)   | [MaximumOr](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code2680_MaximumOr.java) | 贪心、位运算、数组、前缀和           | 中等 |
 | [2411. 按位或最大的最小子数组长度](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or/) |                                                              |                                      |      |
 | [898. 子数组按位或操作](https://leetcode.cn/problems/bitwise-ors-of-subarrays/) |                                                              |                                      |      |
 | [1521. 找到最接近目标值的函数值](https://leetcode.cn/problems/find-a-value-of-a-mysterious-function-closest-to-target/) |                                                              |                                      |      |
