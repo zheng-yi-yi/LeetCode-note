@@ -251,13 +251,34 @@
 
 ## 并查集
 
-| 题目                                                                                                 | 标签                                   | 难度 |
-| ---------------------------------------------------------------------------------------------------- | -------------------------------------- | ---- |
-| [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/) | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
-
-
-
-
+| 题目                                                                                                               | 标签                                   | 难度 |
+| ------------------------------------------------------------------------------------------------------------------ | -------------------------------------- | ---- |
+| [1971. 寻找图中是否存在路径](https://leetcode.cn/problems/find-if-path-exists-in-graph/description/)               | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
+| [684. 冗余连接](https://leetcode.cn/problems/redundant-connection)                                                 |                                        |      |
+| [990. 等式方程的可满足性](https://leetcode.cn/problems/satisfiability-of-equality-equations)                       |                                        |      |
+| [1722. 执行交换操作后的最小汉明距离](https://leetcode.cn/problems/minimize-hamming-distance-after-swap-operations) |                                        |      |
+| [1202. 交换字符串中的元素](https://leetcode.cn/problems/smallest-string-with-swaps)                                |                                        |      |
+| [839. 相似字符串组](https://leetcode.cn/problems/similar-string-groups)                                            |                                        |      |
+| [765. 情侣牵手](https://leetcode.cn/problems/couples-holding-hands)                                                |                                        |      |
+| [721. 账户合并](https://leetcode.cn/problems/accounts-merge)                                                       |                                        |      |
+| [778. 水位上升的泳池中游泳](https://leetcode.cn/problems/swim-in-rising-water)                                     |                                        |      |
+| [959. 由斜杠划分区域](https://leetcode.cn/problems/regions-cut-by-slashes)                                         |                                        |      |
+| [947. 移除最多的同行或同列石头](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column)          |                                        |      |
+| [1391. 检查网格中是否存在有效路径](https://leetcode.cn/problems/check-if-there-is-a-valid-path-in-a-grid)          |                                        |      |
+| [1559. 二维网格图中探测环](https://leetcode.cn/problems/detect-cycles-in-2d-grid)                                  |                                        |      |
+| [827. 最大人工岛](https://leetcode.cn/problems/making-a-large-island)                                              |                                        |      |
+| [952. 按公因数计算最大组件大小](https://leetcode.cn/problems/largest-component-size-by-common-factor)              |                                        |      |
+| [1627. 带阈值的图连通性](https://leetcode.cn/problems/graph-connectivity-with-threshold)                           |                                        |      |
+| [924. 尽量减少恶意软件的传播](https://leetcode.cn/problems/minimize-malware-spread)                                |                                        |      |
+| [928. 尽量减少恶意软件的传播 II](https://leetcode.cn/problems/minimize-malware-spread-ii)                          |                                        |      |
+| [685. 冗余连接 II](https://leetcode.cn/problems/redundant-connection-ii)                                           |                                        |      |
+| [1579. 保证图可完全遍历](https://leetcode.cn/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable)  |                                        |      |
+| [2076. 处理含限制条件的好友请求](https://leetcode.cn/problems/process-restricted-friend-requests)                  |                                        |      |
+| [1697. 检查边长度限制的路径是否存在](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths) |                                        |      |
+| [2503. 矩阵查询可获得的最大分数](https://leetcode.cn/problems/maximum-number-of-points-from-grid-queries)          |                                        |      |
+| [803. 打砖块](https://leetcode.cn/problems/bricks-falling-when-hit)                                                |                                        |      |
+| [2573. 找出对应 LCP 矩阵的字符串](https://leetcode.cn/problems/find-the-string-with-lcp)                           |                                        |      |
+| [1632. 矩阵转换后的秩](https://leetcode.cn/problems/rank-transform-of-a-matrix)                                    |                                        |      |
 
 ## 回溯
 
@@ -295,34 +316,85 @@
 
 ## 贪心
 
-| 题目                                                                                                                | 标签 | 难度 |
-| ------------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [2389. 和有限的最长子序列](https://leetcode.cn/problems/longest-subsequence-with-limited-sum)                       |      |      |
-| [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order)            |      |      |
-| [1338. 数组大小减半](https://leetcode.cn/problems/reduce-array-size-to-the-half)                                    |      |      |
-| [1217. 玩筹码](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position)                        |      |      |
-| [605. 种花问题](https://leetcode.cn/problems/can-place-flowers)                                                     |      |      |
-| [807. 保持城市天际线](https://leetcode.cn/problems/max-increase-to-keep-city-skyline)                               |      |      |
-| [1221. 分割平衡字符串](https://leetcode.cn/problems/split-a-string-in-balanced-strings)                             |      |      |
-| [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck)                                   |      |      |
-| [561. 数组拆分](https://leetcode.cn/problems/array-partition)                                                       |      |      |
-| [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle)                                    |      |      |
-| [1005. K 次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations)              |      |      |
-| [860. 柠檬水找零](https://leetcode.cn/problems/lemonade-change)                                                     |      |      |
-| [455. 分发饼干](https://leetcode.cn/problems/assign-cookies)                                                        |      |      |
-| [2410. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers)          |      |      |
-| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle)                                                     |      |      |
-| [1144. 递减元素使数组呈锯齿状](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag)                 |      |      |
-| [763. 划分字母区间](https://leetcode.cn/problems/partition-labels)                                                  |      |      |
-| [1247. 交换字符使得字符串相同](https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal)                    |      |      |
-| [948. 令牌放置](https://leetcode.cn/problems/bag-of-tokens)                                                         |      |      |
-| [1029. 两地调度](https://leetcode.cn/problems/two-city-scheduling)                                                  |      |      |
-| [1529. 最少的后缀翻转次数](https://leetcode.cn/problems/minimum-suffix-flips)                                       |      |      |
-| [984. 不含 AAA 或 BBB 的字符串](https://leetcode.cn/problems/string-without-aaa-or-bbb)                             |      |      |
-| [1663. 具有给定数值的最小字符串](https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value)           |      |      |
-| [1689. 十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers) |      |      |
-| [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator)                                                 |      |      |
-| [2139. 得到目标值的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-score)                  |      |      |
+| 题目                                                                                                                                              | 标签 | 难度 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---- |
+| [2389. 和有限的最长子序列](https://leetcode.cn/problems/longest-subsequence-with-limited-sum)                                                     |      |      |
+| [1403. 非递增顺序的最小子序列](https://leetcode.cn/problems/minimum-subsequence-in-non-increasing-order)                                          |      |      |
+| [1338. 数组大小减半](https://leetcode.cn/problems/reduce-array-size-to-the-half)                                                                  |      |      |
+| [1217. 玩筹码](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position)                                                      |      |      |
+| [605. 种花问题](https://leetcode.cn/problems/can-place-flowers)                                                                                   |      |      |
+| [807. 保持城市天际线](https://leetcode.cn/problems/max-increase-to-keep-city-skyline)                                                             |      |      |
+| [1221. 分割平衡字符串](https://leetcode.cn/problems/split-a-string-in-balanced-strings)                                                           |      |      |
+| [1710. 卡车上的最大单元数](https://leetcode.cn/problems/maximum-units-on-a-truck)                                                                 |      |      |
+| [561. 数组拆分](https://leetcode.cn/problems/array-partition)                                                                                     |      |      |
+| [976. 三角形的最大周长](https://leetcode.cn/problems/largest-perimeter-triangle)                                                                  |      |      |
+| [1005. K 次取反后最大化的数组和](https://leetcode.cn/problems/maximize-sum-of-array-after-k-negations)                                            |      |      |
+| [860. 柠檬水找零](https://leetcode.cn/problems/lemonade-change)                                                                                   |      |      |
+| [455. 分发饼干](https://leetcode.cn/problems/assign-cookies)                                                                                      |      |      |
+| [2410. 运动员和训练师的最大匹配数](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers)                                        |      |      |
+| [870. 优势洗牌](https://leetcode.cn/problems/advantage-shuffle)                                                                                   |      |      |
+| [1144. 递减元素使数组呈锯齿状](https://leetcode.cn/problems/decrease-elements-to-make-array-zigzag)                                               |      |      |
+| [763. 划分字母区间](https://leetcode.cn/problems/partition-labels)                                                                                |      |      |
+| [1247. 交换字符使得字符串相同](https://leetcode.cn/problems/minimum-swaps-to-make-strings-equal)                                                  |      |      |
+| [948. 令牌放置](https://leetcode.cn/problems/bag-of-tokens)                                                                                       |      |      |
+| [1029. 两地调度](https://leetcode.cn/problems/two-city-scheduling)                                                                                |      |      |
+| [1529. 最少的后缀翻转次数](https://leetcode.cn/problems/minimum-suffix-flips)                                                                     |      |      |
+| [984. 不含 AAA 或 BBB 的字符串](https://leetcode.cn/problems/string-without-aaa-or-bbb)                                                           |      |      |
+| [1663. 具有给定数值的最小字符串](https://leetcode.cn/problems/smallest-string-with-a-given-numeric-value)                                         |      |      |
+| [1689. 十-二进制数的最少数目](https://leetcode.cn/problems/partitioning-into-minimum-number-of-deci-binary-numbers)                               |      |      |
+| [991. 坏了的计算器](https://leetcode.cn/problems/broken-calculator)                                                                               |      |      |
+| [2139. 得到目标值的最少行动次数](https://leetcode.cn/problems/minimum-moves-to-reach-target-score)                                                |      |      |
+| [1578. 使绳子变成彩色的最短时间](https://leetcode.cn/problems/minimum-time-to-make-rope-colorful)                                                 |      |      |
+| [1589. 所有排列中的最大和](https://leetcode.cn/problems/maximum-sum-obtained-of-any-permutation)                                                  |      |      |
+| [861. 翻转矩阵后的得分](https://leetcode.cn/problems/score-after-flipping-matrix)                                                                 |      |      |
+| [1647. 字符频次唯一的最小删除次数](https://leetcode.cn/problems/minimum-deletions-to-make-character-frequencies-unique)                           |      |      |
+| [1400. 构造 K 个回文字符串](https://leetcode.cn/problems/construct-k-palindrome-strings)                                                          |      |      |
+| [738. 单调递增的数字](https://leetcode.cn/problems/monotone-increasing-digits)                                                                    |      |      |
+| [1007. 行相等的最少多米诺旋转](https://leetcode.cn/problems/minimum-domino-rotations-for-equal-row)                                               |      |      |
+| [1717. 删除子字符串的最大得分](https://leetcode.cn/problems/maximum-score-from-removing-substrings)                                               |      |      |
+| [649. Dota2 参议院](https://leetcode.cn/problems/dota2-senate)                                                                                    |      |      |
+| [881. 救生艇](https://leetcode.cn/problems/boats-to-save-people)                                                                                  |      |      |
+| [1090. 受标签影响的最大值](https://leetcode.cn/problems/largest-values-from-labels)                                                               |      |      |
+| [1053. 交换一次的先前排列](https://leetcode.cn/problems/previous-permutation-with-one-swap)                                                       |      |      |
+| [769. 最多能完成排序的块](https://leetcode.cn/problems/max-chunks-to-make-sorted)                                                                 |      |      |
+| [826. 安排工作以达到最大收益](https://leetcode.cn/problems/most-profit-assigning-work)                                                            |      |      |
+| [1733. 需要教语言的最少人数](https://leetcode.cn/problems/minimum-number-of-people-to-teach)                                                      |      |      |
+| [1605. 给定行和列的和求可行矩阵](https://leetcode.cn/problems/find-valid-matrix-given-row-and-column-sums)                                        |      |      |
+| [134. 加油站](https://leetcode.cn/problems/gas-station)                                                                                           |      |      |
+| [135. 分发糖果](https://leetcode.cn/problems/candy)                                                                                               |      |      |
+| [179. 最大数](https://leetcode.cn/problems/largest-number)                                                                                        |      |      |
+| [1414. 和为 K 的最少斐波那契数字数目](https://leetcode.cn/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k)                   |      |      |
+| [1558. 得到目标数组的最少函数调用次数](https://leetcode.cn/problems/minimum-numbers-of-function-calls-to-make-nums-array)                         |      |      |
+| [1546. 和为目标值且不重叠的非空子数组的最大数目](https://leetcode.cn/problems/maximum-number-of-non-overlapping-subarrays-with-sum-equals-target) |      |      |
+| [452. 用最少数量的箭引爆气球](https://leetcode.cn/problems/minimum-number-of-arrows-to-burst-balloons)                                            |      |      |
+| [621. 任务调度器](https://leetcode.cn/problems/task-scheduler)                                                                                    |      |      |
+| [1642. 可以到达的最远建筑](https://leetcode.cn/problems/furthest-building-you-can-reach)                                                          |      |      |
+| [1705. 吃苹果的最大数目](https://leetcode.cn/problems/maximum-number-of-eaten-apples)                                                             |      |      |
+| [1253. 重构 2 行二进制矩阵](https://leetcode.cn/problems/reconstruct-a-2-row-binary-matrix)                                                       |      |      |
+| [1405. 最长快乐字符串](https://leetcode.cn/problems/longest-happy-string)                                                                         |      |      |
+| [435. 无重叠区间](https://leetcode.cn/problems/non-overlapping-intervals)                                                                         |      |      |
+| [1526. 形成目标数组的子数组最少增加次数](https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array)           |      |      |
+| [2498. 青蛙过河 II](https://leetcode.cn/problems/frog-jump-ii)                                                                                    |      |      |
+| [659. 分割数组为连续子序列](https://leetcode.cn/problems/split-array-into-consecutive-subsequences)                                               |      |      |
+| [1536. 排布二进制网格的最少交换次数](https://leetcode.cn/problems/minimum-swaps-to-arrange-a-binary-grid)                                         |      |      |
+| [502. IPO](https://leetcode.cn/problems/ipo)                                                                                                      |      |      |
+| [632. 最小区间](https://leetcode.cn/problems/smallest-range-covering-elements-from-k-lists)                                                       |      |      |
+| [1353. 最多可以参加的会议数目](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended)                                        |      |      |
+| [1383. 最大的团队表现值](https://leetcode.cn/problems/maximum-performance-of-a-team)                                                              |      |      |
+| [1054. 距离相等的条形码](https://leetcode.cn/problems/distant-barcodes)                                                                           |      |      |
+| [767. 重构字符串](https://leetcode.cn/problems/reorganize-string)                                                                                 |      |      |
+| [1488. 避免洪水泛滥](https://leetcode.cn/problems/avoid-flood-in-the-city)                                                                        |      |      |
+| [768. 最多能完成排序的块 II](https://leetcode.cn/problems/max-chunks-to-make-sorted-ii)                                                           |      |      |
+| [1702. 修改后的最大二进制字符串](https://leetcode.cn/problems/maximum-binary-string-after-change)                                                 |      |      |
+| [330. 按要求补齐数组](https://leetcode.cn/problems/patching-array)                                                                                |      |      |
+| [517. 超级洗衣机](https://leetcode.cn/problems/super-washing-machines)                                                                            |      |      |
+| [757. 设置交集大小至少为 2](https://leetcode.cn/problems/set-intersection-size-at-least-two)                                                      |      |      |
+| [857. 雇佣 K 名工人的最低成本](https://leetcode.cn/problems/minimum-cost-to-hire-k-workers)                                                       |      |      |
+| [1665. 完成所有任务的最少初始能量](https://leetcode.cn/problems/minimum-initial-energy-to-finish-tasks)                                           |      |      |
+| [2412. 完成所有交易的初始最少钱数](https://leetcode.cn/problems/minimum-money-required-before-transactions)                                       |      |      |
+| [1330. 翻转子数组得到最大的数组值](https://leetcode.cn/problems/reverse-subarray-to-maximize-array-value)                                         |      |      |
+| [2499. 让数组不相等的最小总代价](https://leetcode.cn/problems/minimum-total-cost-to-make-arrays-unequal)                                          |      |      |
+| [420. 强密码检验器](https://leetcode.cn/problems/strong-password-checker)                                                                         |      |      |
 
 ## 字符串
 
