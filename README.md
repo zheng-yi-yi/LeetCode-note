@@ -282,37 +282,37 @@
 
 ## 回溯
 
-| 题目                                                                                                                                                | 标签             | 难度 |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------- | ---- |
-| [79. 单词搜索](https://leetcode.cn/problems/word-search/description/)                                                                               | 数组、回溯、矩阵 | 中等 |
-| [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number)                                                        |                  |      |
-| [46. 全排列](https://leetcode.cn/problems/permutations)                                                                                             |                  |      |
-| [77. 组合](https://leetcode.cn/problems/combinations)                                                                                               |                  |      |
-| [78. 子集](https://leetcode.cn/problems/subsets)                                                                                                    |                  |      |
-| [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation)                                                                       |                  |      |
-| [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target)                                                                 |                  |      |
-| [22. 括号生成](https://leetcode.cn/problems/generate-parentheses)                                                                                   |                  |      |
-| [47. 全排列 II](https://leetcode.cn/problems/permutations-ii)                                                                                       |                  |      |
-| [90. 子集 II](https://leetcode.cn/problems/subsets-ii)                                                                                              |                  |      |
-| [1601. 最多可达成的换楼请求数目](https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests)                                       |                  |      |
-| [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters)                           |                  |      |
-| [1079. 活字印刷](https://leetcode.cn/problems/letter-tile-possibilities)                                                                            |                  |      |
-| [1219. 黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold)                                                                               |                  |      |
-| [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses)                                                                               |                  |      |
-| [306. 累加数](https://leetcode.cn/problems/additive-number)                                                                                         |                  |      |
-| [842. 将数组拆分成斐波那契序列](https://leetcode.cn/problems/split-array-into-fibonacci-sequence)                                                   |                  |      |
-| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |                  |      |
-| [1286. 字母组合迭代器](https://leetcode.cn/problems/iterator-for-combination)                                                                       |                  |      |
-| [51. N 皇后](https://leetcode.cn/problems/n-queens)                                                                                                 |                  |      |
-| [52. N 皇后 II](https://leetcode.cn/problems/n-queens-ii)                                                                                           |                  |      |
-| [37. 解数独](https://leetcode.cn/problems/sudoku-solver)                                                                                            |                  |      |
-| [679. 24 点游戏](https://leetcode.cn/problems/24-game)                                                                                              |                  |      |
-| [1718. 构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence)                               |                  |      |
-| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence)                                                                                   |                  |      |
-| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators)                                                                    |                  |      |
-| [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses)                                                                      |                  |      |
-| [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii)                                                                                     |                  |      |
-| [1307. 口算难题](https://leetcode.cn/problems/verbal-arithmetic-puzzle)                                                                             |                  |      |
+| 题目                                                         | 参考 | 标签             | 难度 |
+| ------------------------------------------------------------ | ---- | ---------------- | ---- |
+| [79. 单词搜索](https://leetcode.cn/problems/word-search/description/) |      | 数组、回溯、矩阵 | 中等 |
+| [17. 电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number) |      |                  |      |
+| [46. 全排列](https://leetcode.cn/problems/permutations)      |      |                  |      |
+| [77. 组合](https://leetcode.cn/problems/combinations)        |      |                  |      |
+| [78. 子集](https://leetcode.cn/problems/subsets)             |      |                  |      |
+| [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation) |      |                  |      |
+| [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target) |      |                  |      |
+| [22. 括号生成](https://leetcode.cn/problems/generate-parentheses) |      |                  |      |
+| [47. 全排列 II](https://leetcode.cn/problems/permutations-ii) |      |                  |      |
+| [90. 子集 II](https://leetcode.cn/problems/subsets-ii)       |      |                  |      |
+| [1601. 最多可达成的换楼请求数目](https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests) |      |                  |      |
+| [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters) |      |                  |      |
+| [1079. 活字印刷](https://leetcode.cn/problems/letter-tile-possibilities) |      |                  |      |
+| [1219. 黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold) |      |                  |      |
+| [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses) |      |                  |      |
+| [306. 累加数](https://leetcode.cn/problems/additive-number)  |      |                  |      |
+| [842. 将数组拆分成斐波那契序列](https://leetcode.cn/problems/split-array-into-fibonacci-sequence) |      |                  |      |
+| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |      |                  |      |
+| [1286. 字母组合迭代器](https://leetcode.cn/problems/iterator-for-combination) |      |                  |      |
+| [51. N 皇后](https://leetcode.cn/problems/n-queens)          |      |                  |      |
+| [52. N 皇后 II](https://leetcode.cn/problems/n-queens-ii)    |      |                  |      |
+| [37. 解数独](https://leetcode.cn/problems/sudoku-solver)     |      |                  |      |
+| [679. 24 点游戏](https://leetcode.cn/problems/24-game)       |      |                  |      |
+| [1718. 构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence) |      |                  |      |
+| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence) |      |                  |      |
+| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators) |      |                  |      |
+| [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses) |      |                  |      |
+| [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii) |      |                  |      |
+| [1307. 口算难题](https://leetcode.cn/problems/verbal-arithmetic-puzzle) |      |                  |      |
 
 ## 贪心
 
