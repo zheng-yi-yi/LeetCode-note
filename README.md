@@ -82,30 +82,30 @@
 
 ## 前缀和
 
-| 题目                                                                                                                                                | 标签                             | 难度 |
-| --------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- | ---- |
-| [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/)                                                | 设计、数组、前缀和               | 简单 |
-| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/)                                                             | 数组、哈希表、前缀和             | 中等 |
-| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/)                                                                 | 数组、前缀和、模拟               | 简单 |
-| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/)                                            | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
-| [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)                                                      | 数组、哈希表、前缀和             | 中等 |
-| [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/)     | 位运算、哈希表、字符串、前缀和   | 中等 |
-| [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable)                                                       |                                  |      |
-| [1480. 一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array)                                                                      |                                  |      |
-| [1413. 逐步求和得到正数的最小值](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum)                                       |                                  |      |
-| [724. 寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index)                                                                            |                                  |      |
-| [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray)                                                                      |                                  |      |
-| [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k)                                                             |                                  |      |
-| [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum)                                                                         |                                  |      |
-| [525. 连续数组](https://leetcode.cn/problems/contiguous-array)                                                                                      |                                  |      |
-| [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings)                                                                        |                                  |      |
-| [1737. 满足三条件之一需改变的最少字符数](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions)                 |                                  |      |
-| [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)               |                                  |      |
-| [1685. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array)                                          |                                  |      |
-| [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary)                                            |                                  |      |
-| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval)                                                         |                                  |      |
-| [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |                                  |      |
-| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target)                                           |                                  |      |
+| 题目                                                         | 参考 | 标签                             | 难度 |
+| ------------------------------------------------------------ | ---- | -------------------------------- | ---- |
+| [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/) |      | 设计、数组、前缀和               | 简单 |
+| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/) |      | 数组、哈希表、前缀和             | 中等 |
+| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/) |      | 数组、前缀和、模拟               | 简单 |
+| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/) |      | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
+| [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/) |      | 数组、哈希表、前缀和             | 中等 |
+| [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) |      | 位运算、哈希表、字符串、前缀和   | 中等 |
+| [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable) |      |                                  |      |
+| [1480. 一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array) |      |                                  |      |
+| [1413. 逐步求和得到正数的最小值](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum) |      |                                  |      |
+| [724. 寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index) |      |                                  |      |
+| [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray) |      |                                  |      |
+| [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k) |      |                                  |      |
+| [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum) |      |                                  |      |
+| [525. 连续数组](https://leetcode.cn/problems/contiguous-array) |      |                                  |      |
+| [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings) |      |                                  |      |
+| [1737. 满足三条件之一需改变的最少字符数](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions) |      |                                  |      |
+| [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) |      |                                  |      |
+| [1685. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array) |      |                                  |      |
+| [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary) |      |                                  |      |
+| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval) |      |                                  |      |
+| [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |      |                                  |      |
+| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target) |      |                                  |      |
 
 ## 滑动窗口
 
@@ -221,12 +221,14 @@
 
 ### 二维dp
 
-| 题目                                                                                             | 标签                 | 难度 |
-| ------------------------------------------------------------------------------------------------ | -------------------- | ---- |
-| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/)                     | 数组、动态规划、矩阵 | 中等 |
-| [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/)     | 字符串、动态规划     | 中等 |
+| 题目                                                         | 标签                 | 难度 |
+| ------------------------------------------------------------ | -------------------- | ---- |
+| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/) | 数组、动态规划、矩阵 | 中等 |
+| [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/) | 字符串、动态规划     | 中等 |
 | [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 字符串、动态规划     | 中等 |
-| [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/description/)             | 字符串、动态规划     | 困难 |
+| [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/description/) | 字符串、动态规划     | 困难 |
+| [72. 编辑距离](https://leetcode.cn/problems/edit-distance/description/) | 字符串、动态规划     | 中等 |
+| [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/description/) | 字符串、动态规划     | 中等 |
 
 
 
@@ -676,10 +678,6 @@
 | 题目                                                    | 参考                                                         | 标签 | 难度 |
 | ------------------------------------------------------- | ------------------------------------------------------------ | ---- | ---- |
 | [46. 全排列](https://leetcode.cn/problems/permutations) | [Permutations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0046_Permutations.java) | 回溯 | 中等 |
-
-
-
-
 
 
 
