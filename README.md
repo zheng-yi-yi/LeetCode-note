@@ -663,11 +663,11 @@
 
 ### 组合问题
 
-| 题目                                                         | 参考 | 标签                 | 难度 |
-| ------------------------------------------------------------ | ---- | -------------------- | ---- |
-| [77. 组合](https://leetcode.cn/problems/combinations/description/) |      | 回溯                 | 中等 |
-| [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/description/) |      | 数组、回溯           | 中等 |
-| [17. 电话号码的字母组合⁤](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/) |      | 哈希表、字符串、回溯 | 中等 |
+| 题目                                                         | 参考                                                         | 标签                 | 难度 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- | ---- |
+| [77. 组合](https://leetcode.cn/problems/combinations/description/) | [Combinations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0077_Combinations.java) | 回溯                 | 中等 |
+| [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/description/) | [CombinationSumIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0216_CombinationSumIII.java) | 数组、回溯           | 中等 |
+| [17. 电话号码的字母组合⁤](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/) | [LetterCombinations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0017_LetterCombinations.java) | 哈希表、字符串、回溯 | 中等 |
 
 
 
