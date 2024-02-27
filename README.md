@@ -285,7 +285,6 @@
 | 题目                                                         | 参考                                                         | 标签             | 难度 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---- |
 | [79. 单词搜索](https://leetcode.cn/problems/word-search/description/) | [WordSearch](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0079_WordSearch.java) | 数组、回溯、矩阵 | 中等 |
-| [77. 组合](https://leetcode.cn/problems/combinations)        |                                                              |                  |      |
 | [78. 子集](https://leetcode.cn/problems/subsets)             |                                                              |                  |      |
 | [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation) |                                                              |                  |      |
 | [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target) |                                                              |                  |      |
