@@ -84,7 +84,7 @@
 
 | 题目                                                         | 参考                                                         | 标签                             | 难度 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- | ---- |
-| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/) |                                                              | 数组、前缀和、模拟               | 简单 |
+| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/) | [AntOnTheBoundary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code3028_AntOnTheBoundary.java) | 数组、前缀和、模拟               | 简单 |
 | [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/) | [RangeSumQuery](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0303_RangeSumQuery.java) | 设计、数组、前缀和               | 简单 |
 | [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/) | [SubarraySum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0560_SubarraySum.java) | 数组、哈希表、前缀和             | 中等 |
 | [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/) |                                                              | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
