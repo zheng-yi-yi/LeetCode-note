@@ -1,4 +1,4 @@
-package com.zyy2;
+package leetcode;
 
 /**
  * 303. 区域和检索 - 数组不可变
