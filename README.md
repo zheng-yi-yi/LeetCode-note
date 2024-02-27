@@ -87,7 +87,7 @@
 | [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/) | [AntOnTheBoundary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code3028_AntOnTheBoundary.java) | 数组、前缀和、模拟               | 简单 |
 | [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/) | [RangeSumQuery](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0303_RangeSumQuery.java) | 设计、数组、前缀和               | 简单 |
 | [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/) | [SubarraySum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0560_SubarraySum.java) | 数组、哈希表、前缀和             | 中等 |
-| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/) |                                                              | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
+| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/) | [LongestWellPerformingInterval](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1124_LongestWellPerformingInterval.java) | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
 | [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/) |                                                              | 数组、哈希表、前缀和             | 中等 |
 | [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) |                                                              | 位运算、哈希表、字符串、前缀和   | 中等 |
 | [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable) |                                                              |                                  |      |
