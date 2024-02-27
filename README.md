@@ -85,7 +85,7 @@
 | 题目                                                         | 参考                                                         | 标签                             | 难度 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- | ---- |
 | [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/) | [RangeSumQuery](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0303_RangeSumQuery.java) | 设计、数组、前缀和               | 简单 |
-| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/) |                                                              | 数组、哈希表、前缀和             | 中等 |
+| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/) | [SubarraySum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0560_SubarraySum.java) | 数组、哈希表、前缀和             | 中等 |
 | [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/) |                                                              | 数组、前缀和、模拟               | 简单 |
 | [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/) |                                                              | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
 | [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/) |                                                              | 数组、哈希表、前缀和             | 中等 |
