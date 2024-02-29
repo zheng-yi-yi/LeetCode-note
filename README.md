@@ -230,8 +230,6 @@
 | [72. 编辑距离](https://leetcode.cn/problems/edit-distance/description/) | 字符串、动态规划     | 中等 |
 | [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/description/) | 字符串、动态规划     | 中等 |
 
-
-
 ## 深度优先搜索
 
 
@@ -646,6 +644,16 @@
 
 
 ## 其他
+
+### 数组最大累加和
+
+| 题目                                                         | 参考 | 标签                 | 难度 |
+| ------------------------------------------------------------ | ---- | -------------------- | ---- |
+| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) |      | 数组、分治、动态规划 | 中等 |
+| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/) |      | 数组、动态规划       | 中等 |
+|                                                              |      |                      |      |
+
+
 
 ### 网格图 | 岛屿问题（洪水填充解法）
 
