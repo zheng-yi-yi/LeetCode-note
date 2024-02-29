@@ -647,11 +647,12 @@
 
 ### 数组最大累加和
 
-| 题目                                                         | 参考 | 标签                 | 难度 |
-| ------------------------------------------------------------ | ---- | -------------------- | ---- |
-| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) |      | 数组、分治、动态规划 | 中等 |
-| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/) |      | 数组、动态规划       | 中等 |
-| [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/description/) |      | 数组、动态规划       | 中等 |
+| 题目                                                         | 参考 | 标签                                 | 难度 |
+| ------------------------------------------------------------ | ---- | ------------------------------------ | ---- |
+| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) |      | 数组、分治、动态规划                 | 中等 |
+| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/) |      | 数组、动态规划                       | 中等 |
+| [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/description/) |      | 数组、动态规划                       | 中等 |
+| [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/) |      | 队列、数组、分治、动态规划、单调队列 | 中等 |
 
 
 
