@@ -652,14 +652,14 @@
 
 学习资料：[分享｜股票问题系列通解（转载翻译）](https://leetcode.cn/circle/discuss/qiAgHn/)
 
-| 题目                                                                                                                              | 参考 | 标签                 | 难度 |
-| --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- | ---- |
-| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/)                              |      | 数组、动态规划       | 简单 |
-| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)                                    |      | 贪心、数组、动态规划 | 中等 |
-| [123. 买卖股票的最佳时机 III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/description/)                      |      | 数组、动态规划       | 困难 |
-| [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/description/)                        |      | 数组、动态规划       | 困难 |
-| [309. 买卖股票的最佳时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)        |      | 数组、动态规划       | 中等 |
-| [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) |      | 贪心、数组、动态规划 | 中等 |
+| 题目                                                                                                                              | 参考                                                                                                                     | 标签                 | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------- | ---- |
+| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/)                              | [MaxProfit](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0121_MaxProfit.java)                 | 数组、动态规划       | 简单 |
+| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)                                    | [MaxProfit2](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0122_MaxProfit2.java)               | 贪心、数组、动态规划 | 中等 |
+| [123. 买卖股票的最佳时机 III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/description/)                      | [MaxProfit3](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0123_MaxProfit3.java)               | 数组、动态规划       | 困难 |
+| [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/description/)                        | [MaxProfit4](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0188_MaxProfit4.java)               | 数组、动态规划       | 困难 |
+| [309. 买卖股票的最佳时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)        | [MaxProfitCooldown](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0309_MaxProfitCooldown.java) | 数组、动态规划       | 中等 |
+| [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | [MaxProfitFee](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0714_MaxProfitFee.java)           | 贪心、数组、动态规划 | 中等 |
 
 
 
