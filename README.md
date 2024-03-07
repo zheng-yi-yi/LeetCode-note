@@ -109,32 +109,32 @@
 
 ## 滑动窗口
 
-| 题目                                                                                                                                                          | 标签 | 难度 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i)                                                                            |      |      |
+| 题目                                                         | 标签 | 难度 |
+| ------------------------------------------------------------ | ---- | ---- |
+| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters) |      |      |
+| [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i) |      |      |
 | [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |      |      |
-| [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards)                                                               |      |      |
-| [1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner)                                                                                 |      |      |
-| [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)                                        |      |      |
-| [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string)                                                                                       |      |      |
-| [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string)                                                                 |      |      |
-| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters)                                                        |      |      |
-| [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget)                                                                   |      |      |
-| [1004. 最大连续 1 的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii)                                                                          |      |      |
-| [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets)                                                                                              |      |      |
-| [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum)                                                                               |      |      |
-| [1658. 将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero)                                                         |      |      |
-| [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value)                                                                              |      |      |
-| [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k)                                                                         |      |      |
-| [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters)                                     |      |      |
-| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays)                                                                       |      |      |
-| [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words)                                                              |      |      |
-| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring)                                                                                     |      |      |
-| [424. 替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement)                                                             |      |      |
-| [992. K 个不同整数的子数组](https://leetcode.cn/problems/subarrays-with-k-different-integers)                                                                 |      |      |
-| [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string)                                                        |      |      |
-| [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips)                                                         |      |      |
-| [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median)                                                                                     |      |      |
+| [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards) |      |      |
+| [1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner) |      |      |
+| [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length) |      |      |
+| [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string) |      |      |
+| [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string) |      |      |
+| [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget) |      |      |
+| [1004. 最大连续 1 的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii) |      |      |
+| [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets) |      |      |
+| [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum) |      |      |
+| [1658. 将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero) |      |      |
+| [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value) |      |      |
+| [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k) |      |      |
+| [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters) |      |      |
+| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays) |      |      |
+| [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words) |      |      |
+| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring) |      |      |
+| [424. 替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement) |      |      |
+| [992. K 个不同整数的子数组](https://leetcode.cn/problems/subarrays-with-k-different-integers) |      |      |
+| [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string) |      |      |
+| [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips) |      |      |
+| [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median) |      |      |
 
 ## 双指针
 
@@ -644,6 +644,18 @@
 
 
 ## 其他
+
+### 股票问题
+
+| 题目                                                         | 参考 | 标签           | 难度 |
+| ------------------------------------------------------------ | ---- | -------------- | ---- |
+| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/) |      | 数组、动态规划 | 简单 |
+|                                                              |      |                |      |
+|                                                              |      |                |      |
+
+
+
+
 
 ### 数组最大累加和
 
