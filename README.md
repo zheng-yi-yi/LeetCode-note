@@ -31,8 +31,11 @@
   - [优先队列](#优先队列)
   - [哈希表](#哈希表)
   - [其他](#其他)
+    - [股票问题](#股票问题)
+    - [数组最大累加和](#数组最大累加和)
     - [网格图 | 岛屿问题（洪水填充解法）](#网格图--岛屿问题洪水填充解法)
     - [组合问题](#组合问题)
+    - [排列问题](#排列问题)
 
 # 笔记
 
@@ -82,59 +85,59 @@
 
 ## 前缀和
 
-| 题目                                                         | 参考                                                         | 标签                             | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------------------- | ---- |
-| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/) | [AntOnTheBoundary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code3028_AntOnTheBoundary.java) | 数组、前缀和、模拟               | 简单 |
-| [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/) | [RangeSumQuery](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0303_RangeSumQuery.java) | 设计、数组、前缀和               | 简单 |
-| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/) | [SubarraySum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0560_SubarraySum.java) | 数组、哈希表、前缀和             | 中等 |
-| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/) | [LongestWellPerformingInterval](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1124_LongestWellPerformingInterval.java) | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
-| [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/) |                                                              | 数组、哈希表、前缀和             | 中等 |
-| [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/) |                                                              | 位运算、哈希表、字符串、前缀和   | 中等 |
-| [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable) |                                                              |                                  |      |
-| [1480. 一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array) |                                                              |                                  |      |
-| [1413. 逐步求和得到正数的最小值](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum) |                                                              |                                  |      |
-| [724. 寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index) |                                                              |                                  |      |
-| [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray) |                                                              |                                  |      |
-| [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k) |                                                              |                                  |      |
-| [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum) |                                                              |                                  |      |
-| [525. 连续数组](https://leetcode.cn/problems/contiguous-array) |                                                              |                                  |      |
-| [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings) |                                                              |                                  |      |
-| [1737. 满足三条件之一需改变的最少字符数](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions) |                                                              |                                  |      |
-| [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) |                                                              |                                  |      |
-| [1685. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array) |                                                              |                                  |      |
-| [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary) |                                                              |                                  |      |
-| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval) |                                                              |                                  |      |
-| [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |                                                              |                                  |      |
-| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target) |                                                              |                                  |      |
+| 题目                                                                                                                                                | 参考                                                                                                                                             | 标签                             | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------- | ---- |
+| [3028. 边界上的蚂蚁](https://leetcode.cn/problems/ant-on-the-boundary/description/)                                                                 | [AntOnTheBoundary](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code3028_AntOnTheBoundary.java)                           | 数组、前缀和、模拟               | 简单 |
+| [303. 区域和检索 - 数组不可变⁤](https://leetcode.cn/problems/range-sum-query-immutable/description/)                                                | [RangeSumQuery](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0303_RangeSumQuery.java)                                 | 设计、数组、前缀和               | 简单 |
+| [560. 和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/)                                                             | [SubarraySum](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0560_SubarraySum.java)                                     | 数组、哈希表、前缀和             | 中等 |
+| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval/description/)                                            | [LongestWellPerformingInterval](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code1124_LongestWellPerformingInterval.java) | 栈、数组、哈希表、前缀和、单调栈 | 中等 |
+| [1590. 使数组和能被 P 整除](https://leetcode.cn/problems/make-sum-divisible-by-p/description/)                                                      |                                                                                                                                                  | 数组、哈希表、前缀和             | 中等 |
+| [1371. 每个元音包含偶数次的最长子字符串](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts/description/)     |                                                                                                                                                  | 位运算、哈希表、字符串、前缀和   | 中等 |
+| [304. 二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable)                                                       |                                                                                                                                                  |                                  |      |
+| [1480. 一维数组的动态和](https://leetcode.cn/problems/running-sum-of-1d-array)                                                                      |                                                                                                                                                  |                                  |      |
+| [1413. 逐步求和得到正数的最小值](https://leetcode.cn/problems/minimum-value-to-get-positive-step-by-step-sum)                                       |                                                                                                                                                  |                                  |      |
+| [724. 寻找数组的中心下标](https://leetcode.cn/problems/find-pivot-index)                                                                            |                                                                                                                                                  |                                  |      |
+| [1310. 子数组异或查询](https://leetcode.cn/problems/xor-queries-of-a-subarray)                                                                      |                                                                                                                                                  |                                  |      |
+| [974. 和可被 K 整除的子数组](https://leetcode.cn/problems/subarray-sums-divisible-by-k)                                                             |                                                                                                                                                  |                                  |      |
+| [523. 连续的子数组和](https://leetcode.cn/problems/continuous-subarray-sum)                                                                         |                                                                                                                                                  |                                  |      |
+| [525. 连续数组](https://leetcode.cn/problems/contiguous-array)                                                                                      |                                                                                                                                                  |                                  |      |
+| [1109. 航班预订统计](https://leetcode.cn/problems/corporate-flight-bookings)                                                                        |                                                                                                                                                  |                                  |      |
+| [1737. 满足三条件之一需改变的最少字符数](https://leetcode.cn/problems/change-minimum-characters-to-satisfy-one-of-three-conditions)                 |                                                                                                                                                  |                                  |      |
+| [1744. 你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.cn/problems/can-you-eat-your-favorite-candy-on-your-favorite-day)               |                                                                                                                                                  |                                  |      |
+| [1685. 有序数组中差绝对值之和](https://leetcode.cn/problems/sum-of-absolute-differences-in-a-sorted-array)                                          |                                                                                                                                                  |                                  |      |
+| [1674. 使数组互补的最少操作次数](https://leetcode.cn/problems/minimum-moves-to-make-array-complementary)                                            |                                                                                                                                                  |                                  |      |
+| [1124. 表现良好的最长时间段](https://leetcode.cn/problems/longest-well-performing-interval)                                                         |                                                                                                                                                  |                                  |      |
+| [1292. 元素和小于等于阈值的正方形的最大边长](https://leetcode.cn/problems/maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |                                                                                                                                                  |                                  |      |
+| [1074. 元素和为目标值的子矩阵数量](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target)                                           |                                                                                                                                                  |                                  |      |
 
 ## 滑动窗口
 
-| 题目                                                         | 标签 | 难度 |
-| ------------------------------------------------------------ | ---- | ---- |
-| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters) |      |      |
-| [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i) |      |      |
+| 题目                                                                                                                                                          | 标签 | 难度 |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---- | ---- |
+| [3. 无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters)                                                        |      |      |
+| [643. 子数组最大平均数 I](https://leetcode.cn/problems/maximum-average-subarray-i)                                                                            |      |      |
 | [1343. 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |      |      |
-| [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards) |      |      |
-| [1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner) |      |      |
-| [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length) |      |      |
-| [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string) |      |      |
-| [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string) |      |      |
-| [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget) |      |      |
-| [1004. 最大连续 1 的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii) |      |      |
-| [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets) |      |      |
-| [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum) |      |      |
-| [1658. 将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero) |      |      |
-| [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value) |      |      |
-| [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k) |      |      |
-| [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters) |      |      |
-| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays) |      |      |
-| [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words) |      |      |
-| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring) |      |      |
-| [424. 替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement) |      |      |
-| [992. K 个不同整数的子数组](https://leetcode.cn/problems/subarrays-with-k-different-integers) |      |      |
-| [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string) |      |      |
-| [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips) |      |      |
-| [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median) |      |      |
+| [1423. 可获得的最大点数](https://leetcode.cn/problems/maximum-points-you-can-obtain-from-cards)                                                               |      |      |
+| [1052. 爱生气的书店老板](https://leetcode.cn/problems/grumpy-bookstore-owner)                                                                                 |      |      |
+| [1456. 定长子串中元音的最大数目](https://leetcode.cn/problems/maximum-number-of-vowels-in-a-substring-of-given-length)                                        |      |      |
+| [567. 字符串的排列](https://leetcode.cn/problems/permutation-in-string)                                                                                       |      |      |
+| [438. 找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string)                                                                 |      |      |
+| [1208. 尽可能使字符串相等](https://leetcode.cn/problems/get-equal-substrings-within-budget)                                                                   |      |      |
+| [1004. 最大连续 1 的个数 III](https://leetcode.cn/problems/max-consecutive-ones-iii)                                                                          |      |      |
+| [904. 水果成篮](https://leetcode.cn/problems/fruit-into-baskets)                                                                                              |      |      |
+| [209. 长度最小的子数组](https://leetcode.cn/problems/minimum-size-subarray-sum)                                                                               |      |      |
+| [1658. 将 x 减到 0 的最小操作数](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero)                                                         |      |      |
+| [1695. 删除子数组的最大得分](https://leetcode.cn/problems/maximum-erasure-value)                                                                              |      |      |
+| [713. 乘积小于 K 的子数组](https://leetcode.cn/problems/subarray-product-less-than-k)                                                                         |      |      |
+| [1358. 包含所有三种字符的子字符串数目](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters)                                     |      |      |
+| [1248. 统计「优美子数组」](https://leetcode.cn/problems/count-number-of-nice-subarrays)                                                                       |      |      |
+| [30. 串联所有单词的子串](https://leetcode.cn/problems/substring-with-concatenation-of-all-words)                                                              |      |      |
+| [76. 最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring)                                                                                     |      |      |
+| [424. 替换后的最长重复字符](https://leetcode.cn/problems/longest-repeating-character-replacement)                                                             |      |      |
+| [992. K 个不同整数的子数组](https://leetcode.cn/problems/subarrays-with-k-different-integers)                                                                 |      |      |
+| [1234. 替换子串得到平衡字符串](https://leetcode.cn/problems/replace-the-substring-for-balanced-string)                                                        |      |      |
+| [995. K 连续位的最小翻转次数](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips)                                                         |      |      |
+| [480. 滑动窗口中位数](https://leetcode.cn/problems/sliding-window-median)                                                                                     |      |      |
 
 ## 双指针
 
@@ -221,14 +224,14 @@
 
 ### 二维dp
 
-| 题目                                                         | 标签                 | 难度 |
-| ------------------------------------------------------------ | -------------------- | ---- |
-| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/) | 数组、动态规划、矩阵 | 中等 |
-| [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/) | 字符串、动态规划     | 中等 |
+| 题目                                                                                             | 标签                 | 难度 |
+| ------------------------------------------------------------------------------------------------ | -------------------- | ---- |
+| [64. 最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/)                     | 数组、动态规划、矩阵 | 中等 |
+| [1143. 最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/)     | 字符串、动态规划     | 中等 |
 | [516. 最长回文子序列](https://leetcode.cn/problems/longest-palindromic-subsequence/description/) | 字符串、动态规划     | 中等 |
-| [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/description/) | 字符串、动态规划     | 困难 |
-| [72. 编辑距离](https://leetcode.cn/problems/edit-distance/description/) | 字符串、动态规划     | 中等 |
-| [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/description/) | 字符串、动态规划     | 中等 |
+| [115. 不同的子序列](https://leetcode.cn/problems/distinct-subsequences/description/)             | 字符串、动态规划     | 困难 |
+| [72. 编辑距离](https://leetcode.cn/problems/edit-distance/description/)                          | 字符串、动态规划     | 中等 |
+| [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/description/)                  | 字符串、动态规划     | 中等 |
 
 ## 深度优先搜索
 
@@ -282,34 +285,34 @@
 
 ## 回溯
 
-| 题目                                                         | 参考                                                         | 标签             | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- | ---- |
-| [79. 单词搜索](https://leetcode.cn/problems/word-search/description/) | [WordSearch](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0079_WordSearch.java) | 数组、回溯、矩阵 | 中等 |
-| [78. 子集](https://leetcode.cn/problems/subsets)             |                                                              |                  |      |
-| [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation) |                                                              |                  |      |
-| [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target) |                                                              |                  |      |
-| [22. 括号生成](https://leetcode.cn/problems/generate-parentheses) |                                                              |                  |      |
-| [47. 全排列 II](https://leetcode.cn/problems/permutations-ii) |                                                              |                  |      |
-| [90. 子集 II](https://leetcode.cn/problems/subsets-ii)       |                                                              |                  |      |
-| [1601. 最多可达成的换楼请求数目](https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests) |                                                              |                  |      |
-| [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters) |                                                              |                  |      |
-| [1079. 活字印刷](https://leetcode.cn/problems/letter-tile-possibilities) |                                                              |                  |      |
-| [1219. 黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold) |                                                              |                  |      |
-| [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses) |                                                              |                  |      |
-| [306. 累加数](https://leetcode.cn/problems/additive-number)  |                                                              |                  |      |
-| [842. 将数组拆分成斐波那契序列](https://leetcode.cn/problems/split-array-into-fibonacci-sequence) |                                                              |                  |      |
-| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |                                                              |                  |      |
-| [1286. 字母组合迭代器](https://leetcode.cn/problems/iterator-for-combination) |                                                              |                  |      |
-| [51. N 皇后](https://leetcode.cn/problems/n-queens)          |                                                              |                  |      |
-| [52. N 皇后 II](https://leetcode.cn/problems/n-queens-ii)    |                                                              |                  |      |
-| [37. 解数独](https://leetcode.cn/problems/sudoku-solver)     |                                                              |                  |      |
-| [679. 24 点游戏](https://leetcode.cn/problems/24-game)       |                                                              |                  |      |
-| [1718. 构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence) |                                                              |                  |      |
-| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence) |                                                              |                  |      |
-| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators) |                                                              |                  |      |
-| [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses) |                                                              |                  |      |
-| [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii) |                                                              |                  |      |
-| [1307. 口算难题](https://leetcode.cn/problems/verbal-arithmetic-puzzle) |                                                              |                  |      |
+| 题目                                                                                                                                                | 参考                                                                                                       | 标签             | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- | ---------------- | ---- |
+| [79. 单词搜索](https://leetcode.cn/problems/word-search/description/)                                                                               | [WordSearch](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0079_WordSearch.java) | 数组、回溯、矩阵 | 中等 |
+| [78. 子集](https://leetcode.cn/problems/subsets)                                                                                                    |                                                                                                            |                  |      |
+| [784. 字母大小写全排列](https://leetcode.cn/problems/letter-case-permutation)                                                                       |                                                                                                            |                  |      |
+| [797. 所有可能的路径](https://leetcode.cn/problems/all-paths-from-source-to-target)                                                                 |                                                                                                            |                  |      |
+| [22. 括号生成](https://leetcode.cn/problems/generate-parentheses)                                                                                   |                                                                                                            |                  |      |
+| [47. 全排列 II](https://leetcode.cn/problems/permutations-ii)                                                                                       |                                                                                                            |                  |      |
+| [90. 子集 II](https://leetcode.cn/problems/subsets-ii)                                                                                              |                                                                                                            |                  |      |
+| [1601. 最多可达成的换楼请求数目](https://leetcode.cn/problems/maximum-number-of-achievable-transfer-requests)                                       |                                                                                                            |                  |      |
+| [1239. 串联字符串的最大长度](https://leetcode.cn/problems/maximum-length-of-a-concatenated-string-with-unique-characters)                           |                                                                                                            |                  |      |
+| [1079. 活字印刷](https://leetcode.cn/problems/letter-tile-possibilities)                                                                            |                                                                                                            |                  |      |
+| [1219. 黄金矿工](https://leetcode.cn/problems/path-with-maximum-gold)                                                                               |                                                                                                            |                  |      |
+| [93. 复原 IP 地址](https://leetcode.cn/problems/restore-ip-addresses)                                                                               |                                                                                                            |                  |      |
+| [306. 累加数](https://leetcode.cn/problems/additive-number)                                                                                         |                                                                                                            |                  |      |
+| [842. 将数组拆分成斐波那契序列](https://leetcode.cn/problems/split-array-into-fibonacci-sequence)                                                   |                                                                                                            |                  |      |
+| [1415. 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.cn/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n) |                                                                                                            |                  |      |
+| [1286. 字母组合迭代器](https://leetcode.cn/problems/iterator-for-combination)                                                                       |                                                                                                            |                  |      |
+| [51. N 皇后](https://leetcode.cn/problems/n-queens)                                                                                                 |                                                                                                            |                  |      |
+| [52. N 皇后 II](https://leetcode.cn/problems/n-queens-ii)                                                                                           |                                                                                                            |                  |      |
+| [37. 解数独](https://leetcode.cn/problems/sudoku-solver)                                                                                            |                                                                                                            |                  |      |
+| [679. 24 点游戏](https://leetcode.cn/problems/24-game)                                                                                              |                                                                                                            |                  |      |
+| [1718. 构建字典序最大的可行序列](https://leetcode.cn/problems/construct-the-lexicographically-largest-valid-sequence)                               |                                                                                                            |                  |      |
+| [60. 排列序列](https://leetcode.cn/problems/permutation-sequence)                                                                                   |                                                                                                            |                  |      |
+| [282. 给表达式添加运算符](https://leetcode.cn/problems/expression-add-operators)                                                                    |                                                                                                            |                  |      |
+| [301. 删除无效的括号](https://leetcode.cn/problems/remove-invalid-parentheses)                                                                      |                                                                                                            |                  |      |
+| [126. 单词接龙 II](https://leetcode.cn/problems/word-ladder-ii)                                                                                     |                                                                                                            |                  |      |
+| [1307. 口算难题](https://leetcode.cn/problems/verbal-arithmetic-puzzle)                                                                             |                                                                                                            |                  |      |
 
 ## 贪心
 
@@ -649,13 +652,13 @@
 
 学习资料：[分享｜股票问题系列通解（转载翻译）](https://leetcode.cn/circle/discuss/qiAgHn/)
 
-| 题目                                                         | 参考 | 标签                 | 难度 |
-| ------------------------------------------------------------ | ---- | -------------------- | ---- |
-| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/) |      | 数组、动态规划       | 简单 |
-| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) |      | 贪心、数组、动态规划 | 中等 |
-| [123. 买卖股票的最佳时机 III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/description/) |      | 数组、动态规划       | 困难 |
-| [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/description/) |      | 数组、动态规划       | 困难 |
-| [309. 买卖股票的最佳时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/) |      | 数组、动态规划       | 中等 |
+| 题目                                                                                                                              | 参考 | 标签                 | 难度 |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---- | -------------------- | ---- |
+| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/)                              |      | 数组、动态规划       | 简单 |
+| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/)                                    |      | 贪心、数组、动态规划 | 中等 |
+| [123. 买卖股票的最佳时机 III](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iii/description/)                      |      | 数组、动态规划       | 困难 |
+| [188. 买卖股票的最佳时机 IV](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv/description/)                        |      | 数组、动态规划       | 困难 |
+| [309. 买卖股票的最佳时机含冷冻期](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)        |      | 数组、动态规划       | 中等 |
 | [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) |      | 贪心、数组、动态规划 | 中等 |
 
 
@@ -664,13 +667,13 @@
 
 ### 数组最大累加和
 
-| 题目                                                         | 参考 | 标签                                 | 难度 |
-| ------------------------------------------------------------ | ---- | ------------------------------------ | ---- |
-| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/) |      | 数组、分治、动态规划                 | 中等 |
-| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/) |      | 数组、动态规划                       | 中等 |
-| [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/description/) |      | 数组、动态规划                       | 中等 |
+| 题目                                                                                               | 参考 | 标签                                 | 难度 |
+| -------------------------------------------------------------------------------------------------- | ---- | ------------------------------------ | ---- |
+| [53. 最大子数组和](https://leetcode.cn/problems/maximum-subarray/description/)                     |      | 数组、分治、动态规划                 | 中等 |
+| [198. 打家劫舍](https://leetcode.cn/problems/house-robber/description/)                            |      | 数组、动态规划                       | 中等 |
+| [213. 打家劫舍 II](https://leetcode.cn/problems/house-robber-ii/description/)                      |      | 数组、动态规划                       | 中等 |
 | [918. 环形子数组的最大和](https://leetcode.cn/problems/maximum-sum-circular-subarray/description/) |      | 队列、数组、分治、动态规划、单调队列 | 中等 |
-| [2560. 打家劫舍 IV](https://leetcode.cn/problems/house-robber-iv/description/) |      | 数组、二分查找                       | 中等 |
+| [2560. 打家劫舍 IV](https://leetcode.cn/problems/house-robber-iv/description/)                     |      | 数组、二分查找                       | 中等 |
 
 
 
@@ -692,18 +695,18 @@
 
 ### 组合问题
 
-| 题目                                                         | 参考                                                         | 标签                 | 难度 |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | -------------------- | ---- |
-| [77. 组合](https://leetcode.cn/problems/combinations/description/) | [Combinations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0077_Combinations.java) | 回溯                 | 中等 |
-| [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/description/) | [CombinationSumIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0216_CombinationSumIII.java) | 数组、回溯           | 中等 |
+| 题目                                                                                                       | 参考                                                                                                                       | 标签                 | 难度 |
+| ---------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- | -------------------- | ---- |
+| [77. 组合](https://leetcode.cn/problems/combinations/description/)                                         | [Combinations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0077_Combinations.java)             | 回溯                 | 中等 |
+| [216. 组合总和 III](https://leetcode.cn/problems/combination-sum-iii/description/)                         | [CombinationSumIII](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0216_CombinationSumIII.java)   | 数组、回溯           | 中等 |
 | [17. 电话号码的字母组合⁤](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/) | [LetterCombinations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0017_LetterCombinations.java) | 哈希表、字符串、回溯 | 中等 |
 
 
 
 ### 排列问题
 
-| 题目                                                    | 参考                                                         | 标签 | 难度 |
-| ------------------------------------------------------- | ------------------------------------------------------------ | ---- | ---- |
+| 题目                                                    | 参考                                                                                                           | 标签 | 难度 |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ---- | ---- |
 | [46. 全排列](https://leetcode.cn/problems/permutations) | [Permutations](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0046_Permutations.java) | 回溯 | 中等 |
 
 
