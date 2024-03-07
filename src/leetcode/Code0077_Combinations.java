@@ -1,4 +1,4 @@
-package com.zyy;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -15,12 +15,12 @@ import java.util.List;
  * 输入：n = 4, k = 2
  * 输出：
  * [
- *   [2,4],
- *   [3,4],
- *   [2,3],
- *   [1,2],
- *   [1,3],
- *   [1,4],
+ * [2,4],
+ * [3,4],
+ * [2,3],
+ * [1,2],
+ * [1,3],
+ * [1,4],
  * ]
  * 
  * 示例 2：
@@ -34,7 +34,7 @@ import java.util.List;
 public class Code0077_Combinations {
 
     List<List<Integer>> result = new ArrayList<>();
-    
+
     LinkedList<Integer> path = new LinkedList<>();
 
     /**
@@ -42,7 +42,7 @@ public class Code0077_Combinations {
      * 
      * @param n 范围的上限
      * @param k 组合的长度
-     * @return  所有可能的组合
+     * @return 所有可能的组合
      */
     public List<List<Integer>> combine(int n, int k) {
         backtrack(n, k, 1);

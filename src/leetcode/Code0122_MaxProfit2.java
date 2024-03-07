@@ -1,4 +1,4 @@
-package com.leetcode;
+package leetcode;
 
 /**
  * 122. 买卖股票的最佳时机 II
@@ -31,8 +31,8 @@ package com.leetcode;
  */
 
 public class Code0122_MaxProfit2 {
-    
-	/**
+
+    /**
      * 买卖股票的最佳时机 II （通解）
      * 
      * @param prices 股票价格数组
@@ -43,13 +43,13 @@ public class Code0122_MaxProfit2 {
         int[][] dp = new int[n][2];
         dp[0][0] = 0;
         dp[0][1] = -prices[0];
-        for(int i = 1; i<n; i++) {
-            dp[i][0] = Math.max(dp[i-1][0], dp[i-1][1] + prices[i]);// 休息 or 卖出
-            dp[i][1] = Math.max(dp[i-1][1], dp[i-1][0] - prices[i]);// 休息 or 买入
+        for (int i = 1; i < n; i++) {
+            dp[i][0] = Math.max(dp[i - 1][0], dp[i - 1][1] + prices[i]);// 休息 or 卖出
+            dp[i][1] = Math.max(dp[i - 1][1], dp[i - 1][0] - prices[i]);// 休息 or 买入
         }
-        return dp[n-1][0];
+        return dp[n - 1][0];
     }
-    
+
     /**
      * 买卖股票的最佳时机 II （贪心特解：主要收益为正，就累加）
      * 
@@ -67,13 +67,13 @@ public class Code0122_MaxProfit2 {
 
     public static void main(String[] args) {
         // 示例测试
-        int[] prices1 = {7, 1, 5, 3, 6, 4};
+        int[] prices1 = { 7, 1, 5, 3, 6, 4 };
         System.out.println("示例1测试结果：" + maxProfit(prices1)); // 输出：7
 
-        int[] prices2 = {1, 2, 3, 4, 5};
+        int[] prices2 = { 1, 2, 3, 4, 5 };
         System.out.println("示例2测试结果：" + maxProfit(prices2)); // 输出：4
 
-        int[] prices3 = {7, 6, 4, 3, 1};
+        int[] prices3 = { 7, 6, 4, 3, 1 };
         System.out.println("示例3测试结果：" + maxProfit(prices3)); // 输出：0
     }
 }

@@ -1,4 +1,4 @@
-package com.leetcode;
+package leetcode;
 
 /**
  * 188. 买卖股票的最佳时机 IV
@@ -17,14 +17,13 @@ package com.leetcode;
  * 输入：k = 2, prices = [3,2,6,5,0,3]
  * 输出：7
  * 解释：在第 2 天 (股票价格 = 2) 的时候买入，在第 3 天 (股票价格 = 6) 的时候卖出, 这笔交易所能获得利润 = 6-2 = 4 。
- *      随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。
+ * 随后，在第 5 天 (股票价格 = 0) 的时候买入，在第 6 天 (股票价格 = 3) 的时候卖出, 这笔交易所能获得利润 = 3-0 = 3 。
  * 
  * 提示：
  * 1 <= k <= 100
  * 1 <= prices.length <= 1000
  * 0 <= prices[i] <= 1000
  */
-
 
 public class Code0188_MaxProfit4 {
 
@@ -35,7 +34,7 @@ public class Code0188_MaxProfit4 {
      * @param prices 股票价格数组
      * @return 可获取的最大利润
      */
-	public static int maxProfit(int k, int[] prices) {
+    public static int maxProfit(int k, int[] prices) {
         if (prices.length == 0) {
             return 0;
         }
@@ -55,17 +54,17 @@ public class Code0188_MaxProfit4 {
             }
         }
 
-        return dp[n-1][k][0];
+        return dp[n - 1][k][0];
     }
 
     public static void main(String[] args) {
         // 示例测试
         int k1 = 2;
-        int[] prices1 = {2, 4, 1};
+        int[] prices1 = { 2, 4, 1 };
         System.out.println("示例1测试结果：" + maxProfit(k1, prices1)); // 输出：2
 
         int k2 = 2;
-        int[] prices2 = {3, 2, 6, 5, 0, 3};
+        int[] prices2 = { 3, 2, 6, 5, 0, 3 };
         System.out.println("示例2测试结果：" + maxProfit(k2, prices2)); // 输出：7
     }
 }

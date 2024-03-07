@@ -1,4 +1,4 @@
-package com.zyy;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -32,7 +32,7 @@ public class Code0046_Permutations {
      * 返回不含重复数字的数组的所有可能的全排列
      * 
      * @param nums 不含重复数字的数组
-     * @return    所有可能的全排列
+     * @return 所有可能的全排列
      */
     public static List<List<Integer>> permute(int[] nums) {
         List<List<Integer>> results = new ArrayList<>();
@@ -64,17 +64,17 @@ public class Code0046_Permutations {
 
     public static void main(String[] args) {
         // 测试用例1
-        int[] nums1 = {1, 2, 3};
+        int[] nums1 = { 1, 2, 3 };
         System.out.println("输入: nums = " + Arrays.toString(nums1));
         System.out.println("输出: " + permute(nums1));
 
         // 测试用例2
-        int[] nums2 = {0, 1};
+        int[] nums2 = { 0, 1 };
         System.out.println("输入: nums = " + Arrays.toString(nums2));
         System.out.println("输出: " + permute(nums2));
 
         // 测试用例3
-        int[] nums3 = {1};
+        int[] nums3 = { 1 };
         System.out.println("输入: nums = " + Arrays.toString(nums3));
         System.out.println("输出: " + permute(nums3));
     }

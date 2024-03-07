@@ -1,4 +1,4 @@
-package com.leetcode;
+package leetcode;
 
 /**
  * 309. 买卖股票的最佳时机含冷冻期
@@ -12,7 +12,7 @@ package com.leetcode;
  * 
  * 示例 1:
  * 输入: prices = [1,2,3,0,2]
- * 输出: 3 
+ * 输出: 3
  * 解释: 对应的交易状态为: [买入, 卖出, 冷冻期, 买入, 卖出]
  * 示例 2:
  * 输入: prices = [1]
@@ -22,7 +22,6 @@ package com.leetcode;
  * 1 <= prices.length <= 5000
  * 0 <= prices[i] <= 1000
  */
-
 
 public class Code0309_MaxProfitCooldown {
 
@@ -46,7 +45,7 @@ public class Code0309_MaxProfitCooldown {
         }
         return dp[length - 1][0];
     }
-    
+
     public static int maxProfit2(int[] prices) {
         if (prices == null || prices.length == 0) {
             return 0;
@@ -64,10 +63,10 @@ public class Code0309_MaxProfitCooldown {
 
     public static void main(String[] args) {
         // 示例测试
-        int[] prices1 = {1, 2, 3, 0, 2};
+        int[] prices1 = { 1, 2, 3, 0, 2 };
         System.out.println("示例1测试结果：" + maxProfit(prices1)); // 输出：3
 
-        int[] prices2 = {1};
+        int[] prices2 = { 1 };
         System.out.println("示例2测试结果：" + maxProfit(prices2)); // 输出：0
     }
 }

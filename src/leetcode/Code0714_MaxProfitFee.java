@@ -1,4 +1,4 @@
-package com.leetcode;
+package leetcode;
 
 /**
  * 714. 买卖股票的最佳时机含手续费
@@ -14,7 +14,7 @@ package com.leetcode;
  * 示例 1：
  * 输入：prices = [1, 3, 2, 8, 4, 9], fee = 2
  * 输出：8
- * 解释：能够达到的最大利润:  
+ * 解释：能够达到的最大利润:
  * 在此处买入 prices[0] = 1
  * 在此处卖出 prices[3] = 8
  * 在此处买入 prices[4] = 4
@@ -53,7 +53,7 @@ public class Code0714_MaxProfitFee {
         }
         return dp[length - 1][0];
     }
-    
+
     public static int maxProfit2(int[] prices, int fee) {
         if (prices == null || prices.length == 0) {
             return 0;
@@ -69,11 +69,11 @@ public class Code0714_MaxProfitFee {
 
     public static void main(String[] args) {
         // 示例测试
-        int[] prices1 = {1, 3, 2, 8, 4, 9};
+        int[] prices1 = { 1, 3, 2, 8, 4, 9 };
         int fee1 = 2;
         System.out.println("示例1测试结果：" + maxProfit(prices1, fee1)); // 输出：8
 
-        int[] prices2 = {1, 3, 7, 5, 10, 3};
+        int[] prices2 = { 1, 3, 7, 5, 10, 3 };
         int fee2 = 3;
         System.out.println("示例2测试结果：" + maxProfit(prices2, fee2)); // 输出：6
     }

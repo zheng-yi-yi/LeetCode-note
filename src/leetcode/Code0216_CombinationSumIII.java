@@ -1,4 +1,4 @@
-package com.zyy;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -46,7 +46,7 @@ public class Code0216_CombinationSumIII {
      * 
      * @param k 组合的个数
      * @param n 目标和
-     * @return  所有可能的有效组合的列表
+     * @return 所有可能的有效组合的列表
      */
     public List<List<Integer>> combinationSum3(int k, int n) {
         this.k = k;

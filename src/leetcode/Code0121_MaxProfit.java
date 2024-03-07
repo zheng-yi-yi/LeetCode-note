@@ -1,4 +1,4 @@
-package com.leetcode;
+package leetcode;
 
 /**
  * 0121. 买卖股票的最佳时机
@@ -23,7 +23,6 @@ package com.leetcode;
  * 1 <= prices.length <= 10^5
  * 0 <= prices[i] <= 10^4
  */
-
 
 public class Code0121_MaxProfit {
 
@@ -56,14 +55,14 @@ public class Code0121_MaxProfit {
      * 我们用 profit1 表示第 i 天之前（不含第 i 天）的最低股票价格（也就是股票价格相反数的最大值）
      * 
      * 对于 profit0，只需要决定卖出和休息中的哪项操作可以得到更高的收益：
-     * 	1）如果休息，最大收益就是 profit0
-     * 	2）如果进行卖出操作，则买入股票的价格就是 profit1，此时最大收益为 profit1 + prices[i]
+     * 1）如果休息，最大收益就是 profit0
+     * 2）如果进行卖出操作，则买入股票的价格就是 profit1，此时最大收益为 profit1 + prices[i]
      * 
      * @param prices 股票价格数组
      * @return 可获取的最大利润
      */
     public static int maxProfit_(int[] prices) {
-    	if (prices == null || prices.length == 0) {
+        if (prices == null || prices.length == 0) {
             return 0;
         }
         int profit0 = 0, profit1 = -prices[0];
@@ -74,13 +73,13 @@ public class Code0121_MaxProfit {
         }
         return profit0;
     }
-    
+
     public static void main(String[] args) {
         // 示例测试
-        int[] prices1 = {7, 1, 5, 3, 6, 4};
+        int[] prices1 = { 7, 1, 5, 3, 6, 4 };
         System.out.println("示例1测试结果：" + maxProfit(prices1)); // 输出：5
 
-        int[] prices2 = {7, 6, 4, 3, 1};
+        int[] prices2 = { 7, 6, 4, 3, 1 };
         System.out.println("示例2测试结果：" + maxProfit(prices2)); // 输出：0
     }
 }

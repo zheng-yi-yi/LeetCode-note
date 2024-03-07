@@ -1,4 +1,4 @@
-package com.zyy;
+package leetcode;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,7 +37,7 @@ import java.util.List;
  */
 public class Code0017_LetterCombinations {
 
-    String[] map = new String[]{"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
+    String[] map = new String[] { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
     List<String> ans = new ArrayList<>();
 
     /**
