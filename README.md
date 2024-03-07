@@ -649,11 +649,11 @@
 
 学习资料：[分享｜股票问题系列通解（转载翻译）](https://leetcode.cn/circle/discuss/qiAgHn/)
 
-| 题目                                                         | 参考 | 标签           | 难度 |
-| ------------------------------------------------------------ | ---- | -------------- | ---- |
-| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/) |      | 数组、动态规划 | 简单 |
-|                                                              |      |                |      |
-|                                                              |      |                |      |
+| 题目                                                         | 参考 | 标签                 | 难度 |
+| ------------------------------------------------------------ | ---- | -------------------- | ---- |
+| [121. 买卖股票的最佳时机](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock/description/) |      | 数组、动态规划       | 简单 |
+| [122. 买卖股票的最佳时机 II](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-ii/) |      | 贪心、数组、动态规划 | 中等 |
+|                                                              |      |                      |      |
 
 
 
