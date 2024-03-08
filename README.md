@@ -32,6 +32,7 @@
   - [哈希表](#哈希表)
   - [其他](#其他)
     - [股票问题](#股票问题)
+    - [跳跃游戏](#跳跃游戏)
     - [数组最大累加和](#数组最大累加和)
     - [网格图 | 岛屿问题（洪水填充解法）](#网格图--岛屿问题洪水填充解法)
     - [组合问题](#组合问题)
@@ -662,6 +663,17 @@
 | [714. 买卖股票的最佳时机含手续费](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/) | [MaxProfitFee](https://github.com/zheng-yi-yi/LeetCode-note/blob/main/src/leetcode/Code0714_MaxProfitFee.java)           | 贪心、数组、动态规划 | 中等 |
 
 
+### 跳跃游戏
+
+| 题目                                                             | 参考 | 标签                                           | 难度 |
+| ---------------------------------------------------------------- | ---- | ---------------------------------------------- | ---- |
+| [55. 跳跃游戏](https://leetcode.cn/problems/jump-game)           |      | 贪心、数组、动态规划                           | 中等 |
+| [45. 跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii)     |      | 贪心、数组、动态规划                           | 中等 |
+| [1306. 跳跃游戏 III](https://leetcode.cn/problems/jump-game-iii) |      | 深度优先搜索、广度优先搜索、数组               | 中等 |
+| [1345. 跳跃游戏 IV](https://leetcode.cn/problems/jump-game-iv)   |      | 广度优先搜索、数组、哈希表                     | 困难 |
+| [1340. 跳跃游戏 V](https://leetcode.cn/problems/jump-game-v)     |      | 数组、动态规划、排序                           | 困难 |
+| [1696. 跳跃游戏 VI](https://leetcode.cn/problems/jump-game-vi)   |      | 队列、数组、动态规划、单调队列、堆（优先队列） | 中等 |
+| [1871. 跳跃游戏 VII](https://leetcode.cn/problems/jump-game-vii) |      | 字符串、动态规划、前缀和、滑动窗口             | 中等 |
 
 
 
