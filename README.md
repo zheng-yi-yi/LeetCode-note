@@ -540,19 +540,20 @@
 
 ## 单调栈
 
-| 题目                                                                                               | 标签 | 难度 |
-| -------------------------------------------------------------------------------------------------- | ---- | ---- |
-| [316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters)                         |      |      |
-| [402. 移掉 K 位数字](https://leetcode.cn/problems/remove-k-digits)                                 |      |      |
-| [1673. 找出最具竞争力的子序列](https://leetcode.cn/problems/find-the-most-competitive-subsequence) |      |      |
-| [456. 132 模式](https://leetcode.cn/problems/132-pattern)                                          |      |      |
-| [739. 每日温度](https://leetcode.cn/problems/daily-temperatures)                                   |      |      |
-| [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water)                                     |      |      |
-| [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span)                                |      |      |
-| [962. 最大宽度坡](https://leetcode.cn/problems/maximum-width-ramp)                                 |      |      |
-| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums)                   |      |      |
-| [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram)              |      |      |
-| [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle)                                     |      |      |
+| 题目                                                                                               | 标签                             | 难度 |
+| -------------------------------------------------------------------------------------------------- | -------------------------------- | ---- |
+| [739. 每日温度](https://leetcode.cn/problems/daily-temperatures)                                   | 栈、数组、单调栈                 | 中等 |
+| [907. 子数组的最小值之和](https://leetcode.cn/problems/sum-of-subarray-minimums)                   | 栈、数组、动态规划、单调栈       | 中等 |
+| [84. 柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram)              | 栈、数组、单调栈                 | 困难 |
+| [85. 最大矩形](https://leetcode.cn/problems/maximal-rectangle)                                     | 栈、数组、动态规划、矩阵、单调栈 | 困难 |
+| [962. 最大宽度坡](https://leetcode.cn/problems/maximum-width-ramp)                                 | 栈、数组、单调栈                 | 中等 |
+| [316. 去除重复字母](https://leetcode.cn/problems/remove-duplicate-letters)                         | 栈、贪心、字符串、单调栈         | 中等 |
+| [1504. 统计全 1 子矩形](https://leetcode.cn/problems/count-submatrices-with-all-ones/description/) | 栈、数组、动态规划、矩阵、单调栈 | 中等 |
+| [402. 移掉 K 位数字](https://leetcode.cn/problems/remove-k-digits)                                 |                                  |      |
+| [1673. 找出最具竞争力的子序列](https://leetcode.cn/problems/find-the-most-competitive-subsequence) |                                  |      |
+| [456. 132 模式](https://leetcode.cn/problems/132-pattern)                                          |                                  |      |
+| [42. 接雨水](https://leetcode.cn/problems/trapping-rain-water)                                     |                                  |      |
+| [901. 股票价格跨度](https://leetcode.cn/problems/online-stock-span)                                |                                  |      |
 
 ## 单调队列
 
