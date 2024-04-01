@@ -234,6 +234,14 @@
 | [72. 编辑距离](https://leetcode.cn/problems/edit-distance/description/)                          | 字符串、动态规划     | 中等 |
 | [97. 交错字符串](https://leetcode.cn/problems/interleaving-string/description/)                  | 字符串、动态规划     | 中等 |
 
+### 01背包
+
+| 题目                                                         | 标签           | 难度 |
+| ------------------------------------------------------------ | -------------- | ---- |
+| [2915. 和为目标值的最长子序列的长度](https://leetcode.cn/problems/length-of-the-longest-subsequence-that-sums-to-target/) | 数组、动态规划 | 中等 |
+| [416. 分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/) | 数组、动态规划 | 中等 |
+|                                                              |                |      |
+
 ## 深度优先搜索
 
 
